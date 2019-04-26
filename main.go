@@ -133,33 +133,19 @@ func main() {
 			log.Fatal(err)
 			return
 		}
-
-		if err = returnJson(w, timetable); err != nil {
+		var realtime bahn.Timetable
+		if realtime, err = apiClient.RealtimeAll(evaId, date); err != nil {
 			log.Fatal(err)
 			return
 		}
-	})
-	http.HandleFunc("/realtime/", func(w http.ResponseWriter, r *http.Request) {
-		var err error
-
-		_, rawEvaId := path.Split(r.URL.Path)
-		rawEvaId = strings.TrimSpace(rawEvaId)
-
-		var evaId int64
-		if evaId, err = strconv.ParseInt(rawEvaId, 10, 64); err != nil {
-			log.Fatal(err)
-			return
+		realtimeData := make(map[string]*bahn.TimetableStop)
+		for i := range realtime.Stops {
+			stop := realtime.Stops[i]
+			realtimeData[stop.StopId] = &stop
 		}
-
-		var date time.Time
-		if date, err = time.Parse(time.RFC3339, strings.TrimSpace(r.FormValue("time"))); err != nil {
-			date = time.Now()
-		}
-
-		var timetable bahn.Timetable
-		if timetable, err = apiClient.RealtimeAll(evaId, date); err != nil {
-			log.Fatal(err)
-			return
+		for i := range timetable.Stops {
+			stop := &timetable.Stops[i]
+			MergeTimetableStop(stop, realtimeData[stop.StopId])
 		}
 
 		if err = returnJson(w, timetable); err != nil {
