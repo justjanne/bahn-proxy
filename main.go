@@ -2,12 +2,12 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"git.kuschku.de/justjanne/bahn-api"
 	"log"
 	"net/http"
 	"path"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -29,8 +29,12 @@ func returnJson(w http.ResponseWriter, data interface{}) error {
 func main() {
 	autocompleteStations := loadAutocompleteStations()
 
-	var netClient = &http.Client{
-		Timeout: time.Second * 10,
+	apiClient := bahn.ApiClient{
+		IrisBaseUrl:          "http://iris.noncd.db.de/iris-tts",
+		CoachSequenceBaseUrl: "https://www.apps-bahn.de/wr/wagenreihung/1.0/",
+		HttpClient: &http.Client{
+			Timeout: time.Second * 10,
+		},
 	}
 
 	MaxResults := 20
@@ -87,25 +91,21 @@ func main() {
 	http.HandleFunc("/station/", func(w http.ResponseWriter, r *http.Request) {
 		var err error
 
-		_, evaId := path.Split(r.URL.Path)
-		evaId = strings.TrimSpace(evaId)
+		_, rawEvaId := path.Split(r.URL.Path)
+		rawEvaId = strings.TrimSpace(rawEvaId)
 
-		url := fmt.Sprintf("http://iris.noncd.db.de/iris-tts/timetable/station/%s", evaId)
-
-		var response *http.Response
-		if response, err = netClient.Get(url); err != nil {
+		var evaId int64
+		if evaId, err = strconv.ParseInt(rawEvaId, 10, 64); err != nil {
 			log.Fatal(err)
 			return
 		}
 
 		var stations []bahn.Station
-		if stations, err = bahn.StationsFromReader(response.Body); err != nil {
-			log.Fatal(err)
-		}
-		if err = response.Body.Close(); err != nil {
+		if stations, err = apiClient.Station(evaId); err != nil {
 			log.Fatal(err)
 			return
 		}
+
 		if err = returnJson(w, stations); err != nil {
 			log.Fatal(err)
 			return
@@ -114,32 +114,54 @@ func main() {
 	http.HandleFunc("/timetable/", func(w http.ResponseWriter, r *http.Request) {
 		var err error
 
-		_, evaId := path.Split(r.URL.Path)
-		evaId = strings.TrimSpace(evaId)
+		_, rawEvaId := path.Split(r.URL.Path)
+		rawEvaId = strings.TrimSpace(rawEvaId)
+
+		var evaId int64
+		if evaId, err = strconv.ParseInt(rawEvaId, 10, 64); err != nil {
+			log.Fatal(err)
+			return
+		}
 
 		var date time.Time
 		if date, err = time.Parse(time.RFC3339, strings.TrimSpace(r.FormValue("time"))); err != nil {
 			date = time.Now()
 		}
 
-		BahnFormat := "060102/15"
-
-		url := fmt.Sprintf("http://iris.noncd.db.de/iris-tts/timetable/plan/%s/%s", evaId, date.Format(BahnFormat))
-
-		var response *http.Response
-		if response, err = netClient.Get(url); err != nil {
+		var timetable bahn.Timetable
+		if timetable, err = apiClient.Timetable(evaId, date); err != nil {
 			log.Fatal(err)
 			return
+		}
+
+		if err = returnJson(w, timetable); err != nil {
+			log.Fatal(err)
+			return
+		}
+	})
+	http.HandleFunc("/realtime/", func(w http.ResponseWriter, r *http.Request) {
+		var err error
+
+		_, rawEvaId := path.Split(r.URL.Path)
+		rawEvaId = strings.TrimSpace(rawEvaId)
+
+		var evaId int64
+		if evaId, err = strconv.ParseInt(rawEvaId, 10, 64); err != nil {
+			log.Fatal(err)
+			return
+		}
+
+		var date time.Time
+		if date, err = time.Parse(time.RFC3339, strings.TrimSpace(r.FormValue("time"))); err != nil {
+			date = time.Now()
 		}
 
 		var timetable bahn.Timetable
-		if timetable, err = bahn.TimetableFromReader(response.Body); err != nil {
-			log.Fatal(err)
-		}
-		if err = response.Body.Close(); err != nil {
+		if timetable, err = apiClient.RealtimeAll(evaId, date); err != nil {
 			log.Fatal(err)
 			return
 		}
+
 		if err = returnJson(w, timetable); err != nil {
 			log.Fatal(err)
 			return

@@ -1,3 +1,4 @@
-git.kuschku.de/justjanne/bahn-api v0.0.0-20190426164822-2005e844c1c3/go.mod h1:rpAScvoRtRrl72NB07uxpiWBo3V/wJxr+bFkSItGil4=
+git.kuschku.de/justjanne/bahn-api v0.0.0-20190426183324-6148fdeae5b2 h1:7ZO091t3gVKMuVUovC/Fdt952UpLI44OCd7A0XArRMw=
+git.kuschku.de/justjanne/bahn-api v0.0.0-20190426183324-6148fdeae5b2/go.mod h1:rpAScvoRtRrl72NB07uxpiWBo3V/wJxr+bFkSItGil4=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
