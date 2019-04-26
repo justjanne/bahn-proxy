@@ -1,0 +1,3986 @@
+[
+  {
+    "stop_id": 8000001,
+    "stop_name": "Aachen Hbf",
+    "stop_lat": 50.767803,
+    "stop_lon": 6.091495
+  },
+  {
+    "stop_id": 8000403,
+    "stop_name": "Aachen Süd(Gr)",
+    "stop_lat": 50.731918,
+    "stop_lon": 6.045408
+  },
+  {
+    "stop_id": 8000002,
+    "stop_name": "Aalen Hbf",
+    "stop_lat": 48.84101,
+    "stop_lon": 10.09627
+  },
+  {
+    "stop_id": 8502113,
+    "stop_name": "Aarau",
+    "stop_lat": 47.391355,
+    "stop_lon": 8.051251
+  },
+  {
+    "stop_id": 8600087,
+    "stop_name": "Aarhus",
+    "stop_lat": 56.150076,
+    "stop_lon": 10.204995
+  },
+  {
+    "stop_id": 8000459,
+    "stop_name": "Ainring",
+    "stop_lat": 47.815035,
+    "stop_lon": 12.964504
+  },
+  {
+    "stop_id": 8000483,
+    "stop_name": "Alfeld(Leine)",
+    "stop_lat": 51.981418,
+    "stop_lon": 9.817776
+  },
+  {
+    "stop_id": 8400051,
+    "stop_name": "Almelo",
+    "stop_lat": 52.357284,
+    "stop_lon": 6.654813
+  },
+  {
+    "stop_id": 8000004,
+    "stop_name": "Altenbeken",
+    "stop_lat": 51.766432,
+    "stop_lon": 8.943323
+  },
+  {
+    "stop_id": 8400055,
+    "stop_name": "Amersfoort",
+    "stop_lat": 52.153643,
+    "stop_lon": 5.373239
+  },
+  {
+    "stop_id": 8400058,
+    "stop_name": "Amsterdam Centraal",
+    "stop_lat": 52.379191,
+    "stop_lon": 4.899427
+  },
+  {
+    "stop_id": 8100012,
+    "stop_name": "Amstetten NÖ",
+    "stop_lat": 48.121603,
+    "stop_lon": 14.878109
+  },
+  {
+    "stop_id": 8000331,
+    "stop_name": "Andernach",
+    "stop_lat": 50.434546,
+    "stop_lon": 7.404837
+  },
+  {
+    "stop_id": 8010004,
+    "stop_name": "Angermünde",
+    "stop_lat": 53.015223,
+    "stop_lon": 13.996357
+  },
+  {
+    "stop_id": 8011044,
+    "stop_name": "Anklam",
+    "stop_lat": 53.856101,
+    "stop_lon": 13.701826
+  },
+  {
+    "stop_id": 8000009,
+    "stop_name": "Ansbach",
+    "stop_lat": 49.29803,
+    "stop_lon": 10.578236
+  },
+  {
+    "stop_id": 8400066,
+    "stop_name": "Apeldoorn",
+    "stop_lat": 52.20943,
+    "stop_lon": 5.967489
+  },
+  {
+    "stop_id": 8011051,
+    "stop_name": "Apolda",
+    "stop_lat": 51.030944,
+    "stop_lon": 11.52614
+  },
+  {
+    "stop_id": 8300179,
+    "stop_name": "Arezzo",
+    "stop_lat": 43.461074,
+    "stop_lon": 11.875389
+  },
+  {
+    "stop_id": 8400071,
+    "stop_name": "Arnhem Centraal",
+    "stop_lat": 51.98478,
+    "stop_lon": 5.901005
+  },
+  {
+    "stop_id": 8505004,
+    "stop_name": "Arth-Goldau",
+    "stop_lat": 47.049154,
+    "stop_lon": 8.549488
+  },
+  {
+    "stop_id": 8000010,
+    "stop_name": "Aschaffenburg Hbf",
+    "stop_lat": 49.980554,
+    "stop_lon": 9.143693
+  },
+  {
+    "stop_id": 8000013,
+    "stop_name": "Augsburg Hbf",
+    "stop_lat": 48.365444,
+    "stop_lon": 10.885568
+  },
+  {
+    "stop_id": 8000664,
+    "stop_name": "Augustfehn",
+    "stop_lat": 53.220887,
+    "stop_lon": 7.759659
+  },
+  {
+    "stop_id": 8000014,
+    "stop_name": "Aulendorf",
+    "stop_lat": 47.953055,
+    "stop_lon": 9.64405
+  },
+  {
+    "stop_id": 8000879,
+    "stop_name": "Bad Bentheim",
+    "stop_lat": 52.309848,
+    "stop_lon": 7.158542
+  },
+  {
+    "stop_id": 8000151,
+    "stop_name": "Bad Bentheim(Gr)",
+    "stop_lat": 52.309102,
+    "stop_lon": 7.040163
+  },
+  {
+    "stop_id": 8000935,
+    "stop_name": "Bad Bevensen",
+    "stop_lat": 53.078246,
+    "stop_lon": 10.574137
+  },
+  {
+    "stop_id": 8001787,
+    "stop_name": "Bad Endorf",
+    "stop_lat": 47.905062,
+    "stop_lon": 12.301558
+  },
+  {
+    "stop_id": 8100095,
+    "stop_name": "Bad Gastein",
+    "stop_lat": 47.111746,
+    "stop_lon": 13.132458
+  },
+  {
+    "stop_id": 8000020,
+    "stop_name": "Bad Hersfeld",
+    "stop_lat": 50.869632,
+    "stop_lon": 9.71618
+  },
+  {
+    "stop_id": 8100097,
+    "stop_name": "Bad Hofgastein",
+    "stop_lat": 47.195714,
+    "stop_lon": 13.100942
+  },
+  {
+    "stop_id": 8010018,
+    "stop_name": "Bad Kleinen",
+    "stop_lat": 53.766973,
+    "stop_lon": 11.466928
+  },
+  {
+    "stop_id": 8000718,
+    "stop_name": "Bad Krozingen",
+    "stop_lat": 47.919723,
+    "stop_lon": 7.697634
+  },
+  {
+    "stop_id": 8000732,
+    "stop_name": "Bad Oeynhausen",
+    "stop_lat": 52.205394,
+    "stop_lon": 8.79652
+  },
+  {
+    "stop_id": 8000737,
+    "stop_name": "Bad Reichenhall",
+    "stop_lat": 47.731166,
+    "stop_lon": 12.881821
+  },
+  {
+    "stop_id": 8000738,
+    "stop_name": "Bad Reichenhall-Kirchberg",
+    "stop_lat": 47.718536,
+    "stop_lon": 12.874
+  },
+  {
+    "stop_id": 8010022,
+    "stop_name": "Bad Schandau",
+    "stop_lat": 50.918839,
+    "stop_lon": 14.139322
+  },
+  {
+    "stop_id": 8000770,
+    "stop_name": "Bad Zwischenahn",
+    "stop_lat": 53.182548,
+    "stop_lon": 8.003123
+  },
+  {
+    "stop_id": 8503504,
+    "stop_name": "Baden(CH)",
+    "stop_lat": 47.47642,
+    "stop_lon": 8.307696
+  },
+  {
+    "stop_id": 8000774,
+    "stop_name": "Baden-Baden",
+    "stop_lat": 48.790329,
+    "stop_lon": 8.190827
+  },
+  {
+    "stop_id": 8000025,
+    "stop_name": "Bamberg",
+    "stop_lat": 49.900757,
+    "stop_lon": 10.899493
+  },
+  {
+    "stop_id": 2100013,
+    "stop_name": "Baranovichi Centralnye",
+    "stop_lat": 53.142609,
+    "stop_lon": 26.02708
+  },
+  {
+    "stop_id": 8000026,
+    "stop_name": "Basel Bad Bf",
+    "stop_lat": 47.567292,
+    "stop_lon": 7.607805
+  },
+  {
+    "stop_id": 8500010,
+    "stop_name": "Basel SBB",
+    "stop_lat": 47.547408,
+    "stop_lon": 7.589548
+  },
+  {
+    "stop_id": 8000831,
+    "stop_name": "Bayerisch Gmain",
+    "stop_lat": 47.720379,
+    "stop_lon": 12.895071
+  },
+  {
+    "stop_id": 8000029,
+    "stop_name": "Bebra",
+    "stop_lat": 50.969566,
+    "stop_lon": 9.797784
+  },
+  {
+    "stop_id": 8505213,
+    "stop_name": "Bellinzona",
+    "stop_lat": 46.195439,
+    "stop_lon": 9.029512
+  },
+  {
+    "stop_id": 8000031,
+    "stop_name": "Bensheim",
+    "stop_lat": 49.68133,
+    "stop_lon": 8.616718
+  },
+  {
+    "stop_id": 8000885,
+    "stop_name": "Berchtesgaden Hbf",
+    "stop_lat": 47.626684,
+    "stop_lon": 12.999058
+  },
+  {
+    "stop_id": 8010033,
+    "stop_name": "Bergen auf Rügen",
+    "stop_lat": 54.420497,
+    "stop_lon": 13.417821
+  },
+  {
+    "stop_id": 8011102,
+    "stop_name": "Berlin Gesundbrunnen",
+    "stop_lat": 52.548961,
+    "stop_lon": 13.388516
+  },
+  {
+    "stop_id": 8011160,
+    "stop_name": "Berlin Hbf",
+    "stop_lat": 52.525589,
+    "stop_lon": 13.369549
+  },
+  {
+    "stop_id": 8098160,
+    "stop_name": "Berlin Hbf (tief)",
+    "stop_lat": 52.525589,
+    "stop_lon": 13.369549
+  },
+  {
+    "stop_id": 8010255,
+    "stop_name": "Berlin Ostbahnhof",
+    "stop_lat": 52.510487,
+    "stop_lon": 13.434684
+  },
+  {
+    "stop_id": 8011162,
+    "stop_name": "Berlin Ostkreuz",
+    "stop_lat": 52.503035,
+    "stop_lon": 13.469104
+  },
+  {
+    "stop_id": 8011113,
+    "stop_name": "Berlin Südkreuz",
+    "stop_lat": 52.475043,
+    "stop_lon": 13.365315
+  },
+  {
+    "stop_id": 8010405,
+    "stop_name": "Berlin Wannsee",
+    "stop_lat": 52.420973,
+    "stop_lon": 13.179526
+  },
+  {
+    "stop_id": 8010406,
+    "stop_name": "Berlin Zoologischer Garten",
+    "stop_lat": 52.507278,
+    "stop_lon": 13.331992
+  },
+  {
+    "stop_id": 8010403,
+    "stop_name": "Berlin-Charlottenburg",
+    "stop_lat": 52.504366,
+    "stop_lon": 13.302983
+  },
+  {
+    "stop_id": 8010036,
+    "stop_name": "Berlin-Lichtenberg",
+    "stop_lat": 52.510137,
+    "stop_lon": 13.496692
+  },
+  {
+    "stop_id": 8010404,
+    "stop_name": "Berlin-Spandau",
+    "stop_lat": 52.53465,
+    "stop_lon": 13.196902
+  },
+  {
+    "stop_id": 8507000,
+    "stop_name": "Bern",
+    "stop_lat": 46.948825,
+    "stop_lon": 7.439122
+  },
+  {
+    "stop_id": 8013470,
+    "stop_name": "Bernau(b Berlin)",
+    "stop_lat": 52.675655,
+    "stop_lon": 13.592463
+  },
+  {
+    "stop_id": 8271141,
+    "stop_name": "Bettembourg(fr)",
+    "stop_lat": 49.472071,
+    "stop_lon": 6.107856
+  },
+  {
+    "stop_id": 8270210,
+    "stop_name": "Betzdorf(LUX)",
+    "stop_lat": 49.68889,
+    "stop_lon": 6.348991
+  },
+  {
+    "stop_id": 8000943,
+    "stop_name": "Biberach(Riß)",
+    "stop_lat": 48.101845,
+    "stop_lon": 9.793127
+  },
+  {
+    "stop_id": 8000036,
+    "stop_name": "Bielefeld Hbf",
+    "stop_lat": 52.029259,
+    "stop_lon": 8.532723
+  },
+  {
+    "stop_id": 8000039,
+    "stop_name": "Bingen(Rhein) Hbf",
+    "stop_lat": 49.968725,
+    "stop_lon": 7.884259
+  },
+  {
+    "stop_id": 8100042,
+    "stop_name": "Bischofshofen",
+    "stop_lat": 47.417856,
+    "stop_lon": 13.219887
+  },
+  {
+    "stop_id": 8000997,
+    "stop_name": "Bischofswiesen",
+    "stop_lat": 47.65189,
+    "stop_lon": 12.960144
+  },
+  {
+    "stop_id": 8010050,
+    "stop_name": "Bitterfeld",
+    "stop_lat": 51.622857,
+    "stop_lon": 12.316849
+  },
+  {
+    "stop_id": 8100067,
+    "stop_name": "Bludenz",
+    "stop_lat": 47.154723,
+    "stop_lon": 9.814567
+  },
+  {
+    "stop_id": 5100227,
+    "stop_name": "Bochnia",
+    "stop_lat": 49.9773,
+    "stop_lon": 20.430773
+  },
+  {
+    "stop_id": 8000041,
+    "stop_name": "Bochum Hbf",
+    "stop_lat": 51.478607,
+    "stop_lon": 7.223273
+  },
+  {
+    "stop_id": 5400038,
+    "stop_name": "Bohumin",
+    "stop_lat": 49.90073,
+    "stop_lon": 18.359443
+  },
+  {
+    "stop_id": 5100021,
+    "stop_name": "Bohumin(Gr)",
+    "stop_lat": 49.910474,
+    "stop_lon": 18.333014
+  },
+  {
+    "stop_id": 8300217,
+    "stop_name": "Bologna Centrale",
+    "stop_lat": 44.506142,
+    "stop_lon": 11.343407
+  },
+  {
+    "stop_id": 8300084,
+    "stop_name": "Bolzano/Bozen",
+    "stop_lat": 46.49638,
+    "stop_lon": 11.358787
+  },
+  {
+    "stop_id": 8001080,
+    "stop_name": "Bondorf(b Herrenberg)",
+    "stop_lat": 48.523556,
+    "stop_lon": 8.827659
+  },
+  {
+    "stop_id": 8000044,
+    "stop_name": "Bonn Hbf",
+    "stop_lat": 50.732008,
+    "stop_lon": 7.097136
+  },
+  {
+    "stop_id": 8001082,
+    "stop_name": "Bonn-Bad Godesberg",
+    "stop_lat": 50.683924,
+    "stop_lon": 7.159558
+  },
+  {
+    "stop_id": 8001083,
+    "stop_name": "Bonn-Beuel",
+    "stop_lat": 50.73848,
+    "stop_lon": 7.127655
+  },
+  {
+    "stop_id": 8000045,
+    "stop_name": "Boppard Hbf",
+    "stop_lat": 50.231416,
+    "stop_lon": 7.586105
+  },
+  {
+    "stop_id": 7900080,
+    "stop_name": "Borovnica",
+    "stop_lat": 45.921322,
+    "stop_lon": 14.367971
+  },
+  {
+    "stop_id": 8600276,
+    "stop_name": "Borup st",
+    "stop_lat": 55.494897,
+    "stop_lon": 11.97293
+  },
+  {
+    "stop_id": 8010060,
+    "stop_name": "Brandenburg Hbf",
+    "stop_lat": 52.400558,
+    "stop_lon": 12.566138
+  },
+  {
+    "stop_id": 5600207,
+    "stop_name": "Bratislava hl.st.",
+    "stop_lat": 48.158908,
+    "stop_lon": 17.106463
+  },
+  {
+    "stop_id": 8000049,
+    "stop_name": "Braunschweig Hbf",
+    "stop_lat": 52.252218,
+    "stop_lon": 10.540293
+  },
+  {
+    "stop_id": 5400202,
+    "stop_name": "Breclav",
+    "stop_lat": 48.753904,
+    "stop_lon": 16.893239
+  },
+  {
+    "stop_id": 5403739,
+    "stop_name": "Breclav(Gr)",
+    "stop_lat": 48.712554,
+    "stop_lon": 16.868402
+  },
+  {
+    "stop_id": 8100090,
+    "stop_name": "Bregenz",
+    "stop_lat": 47.503001,
+    "stop_lon": 9.739623
+  },
+  {
+    "stop_id": 8000050,
+    "stop_name": "Bremen Hbf",
+    "stop_lat": 53.083478,
+    "stop_lon": 8.813833
+  },
+  {
+    "stop_id": 8300092,
+    "stop_name": "Brennero/Brenner",
+    "stop_lat": 47.002338,
+    "stop_lon": 11.505428
+  },
+  {
+    "stop_id": 8300048,
+    "stop_name": "Brescia",
+    "stop_lat": 45.532161,
+    "stop_lon": 10.21287
+  },
+  {
+    "stop_id": 8300076,
+    "stop_name": "Bressanone/Brixen",
+    "stop_lat": 46.709892,
+    "stop_lon": 11.649768
+  },
+  {
+    "stop_id": 2100001,
+    "stop_name": "Brest Central",
+    "stop_lat": 52.100435,
+    "stop_lon": 23.680679
+  },
+  {
+    "stop_id": 2100149,
+    "stop_name": "Brest(Gr)",
+    "stop_lat": 52.098898,
+    "stop_lon": 23.673856
+  },
+  {
+    "stop_id": 8501609,
+    "stop_name": "Brig",
+    "stop_lat": 46.319419,
+    "stop_lon": 7.988093
+  },
+  {
+    "stop_id": 8000055,
+    "stop_name": "Bruchsal",
+    "stop_lat": 49.124619,
+    "stop_lon": 8.589651
+  },
+  {
+    "stop_id": 8500309,
+    "stop_name": "Brugg AG",
+    "stop_lat": 47.480852,
+    "stop_lon": 8.208823
+  },
+  {
+    "stop_id": 8800004,
+    "stop_name": "Bruxelles Midi",
+    "stop_lat": 50.835375,
+    "stop_lon": 4.335695
+  },
+  {
+    "stop_id": 8800002,
+    "stop_name": "Bruxelles-Nord",
+    "stop_lat": 50.860239,
+    "stop_lon": 4.361458
+  },
+  {
+    "stop_id": 5100671,
+    "stop_name": "Brzesko Okocim",
+    "stop_lat": 49.986397,
+    "stop_lon": 20.610297
+  },
+  {
+    "stop_id": 8000057,
+    "stop_name": "Buchloe",
+    "stop_lat": 48.033725,
+    "stop_lon": 10.716221
+  },
+  {
+    "stop_id": 5500003,
+    "stop_name": "Budapest-Keleti",
+    "stop_lat": 47.500386,
+    "stop_lon": 19.08507
+  },
+  {
+    "stop_id": 5500728,
+    "stop_name": "Budapest-Nyugati",
+    "stop_lat": 47.510705,
+    "stop_lon": 19.057464
+  },
+  {
+    "stop_id": 8001267,
+    "stop_name": "Bullay(DB)",
+    "stop_lat": 50.054464,
+    "stop_lon": 7.134585
+  },
+  {
+    "stop_id": 5100005,
+    "stop_name": "Bydgoszcz Glowna",
+    "stop_lat": 53.135112,
+    "stop_lon": 17.99164
+  },
+  {
+    "stop_id": 8001055,
+    "stop_name": "Böblingen",
+    "stop_lat": 48.687762,
+    "stop_lon": 9.004126
+  },
+  {
+    "stop_id": 8000058,
+    "stop_name": "Büchen",
+    "stop_lat": 53.474976,
+    "stop_lon": 10.623299
+  },
+  {
+    "stop_id": 8000059,
+    "stop_name": "Bünde(Westf)",
+    "stop_lat": 52.202077,
+    "stop_lon": 8.573875
+  },
+  {
+    "stop_id": 8010066,
+    "stop_name": "Bützow",
+    "stop_lat": 53.837115,
+    "stop_lon": 11.99819
+  },
+  {
+    "stop_id": 8700386,
+    "stop_name": "Calais Ville",
+    "stop_lat": 50.953403,
+    "stop_lon": 1.850178
+  },
+  {
+    "stop_id": 8000064,
+    "stop_name": "Celle",
+    "stop_lat": 52.620965,
+    "stop_lon": 10.062633
+  },
+  {
+    "stop_id": 8270280,
+    "stop_name": "Cents-Hamm",
+    "stop_lat": 49.614621,
+    "stop_lon": 6.164676
+  },
+  {
+    "stop_id": 8300193,
+    "stop_name": "Cesena",
+    "stop_lat": 44.145476,
+    "stop_lon": 12.249511
+  },
+  {
+    "stop_id": 5100708,
+    "stop_name": "Chalupki",
+    "stop_lat": 49.925477,
+    "stop_lon": 18.311557
+  },
+  {
+    "stop_id": 5400004,
+    "stop_name": "Cheb",
+    "stop_lat": 50.073494,
+    "stop_lon": 12.380699
+  },
+  {
+    "stop_id": 8005353,
+    "stop_name": "Cheb(Gr)",
+    "stop_lat": 50.086978,
+    "stop_lon": 12.253502
+  },
+  {
+    "stop_id": 8505307,
+    "stop_name": "Chiasso",
+    "stop_lat": 45.832176,
+    "stop_lon": 9.031444
+  },
+  {
+    "stop_id": 8300148,
+    "stop_name": "Chiusi-Chianciano Terme",
+    "stop_lat": 43.002471,
+    "stop_lon": 11.957901
+  },
+  {
+    "stop_id": 8509000,
+    "stop_name": "Chur",
+    "stop_lat": 46.853081,
+    "stop_lon": 9.528925
+  },
+  {
+    "stop_id": 8001338,
+    "stop_name": "Coburg",
+    "stop_lat": 50.263094,
+    "stop_lon": 10.957374
+  },
+  {
+    "stop_id": 8001340,
+    "stop_name": "Cochem(Mosel)",
+    "stop_lat": 50.153093,
+    "stop_lon": 7.16674
+  },
+  {
+    "stop_id": 8300056,
+    "stop_name": "Como S. Giovanni",
+    "stop_lat": 45.808975,
+    "stop_lon": 9.072714
+  },
+  {
+    "stop_id": 8300086,
+    "stop_name": "Conegliano",
+    "stop_lat": 45.884664,
+    "stop_lon": 12.299104
+  },
+  {
+    "stop_id": 8010072,
+    "stop_name": "Coswig(b Dresden)",
+    "stop_lat": 51.122814,
+    "stop_lon": 13.579411
+  },
+  {
+    "stop_id": 8010073,
+    "stop_name": "Cottbus Hbf",
+    "stop_lat": 51.750953,
+    "stop_lon": 14.324158
+  },
+  {
+    "stop_id": 8000067,
+    "stop_name": "Crailsheim",
+    "stop_lat": 49.13787,
+    "stop_lon": 10.064323
+  },
+  {
+    "stop_id": 8000068,
+    "stop_name": "Darmstadt Hbf",
+    "stop_lat": 49.872504,
+    "stop_lon": 8.629635
+  },
+  {
+    "stop_id": 5100228,
+    "stop_name": "Debica",
+    "stop_lat": 50.054419,
+    "stop_lon": 21.405563
+  },
+  {
+    "stop_id": 5400003,
+    "stop_name": "Decin hl.n.",
+    "stop_lat": 50.773412,
+    "stop_lon": 14.201249
+  },
+  {
+    "stop_id": 8000070,
+    "stop_name": "Delmenhorst",
+    "stop_lat": 53.052789,
+    "stop_lon": 8.629761
+  },
+  {
+    "stop_id": 8300106,
+    "stop_name": "Desenzano del Garda/Sirmione",
+    "stop_lat": 45.462666,
+    "stop_lon": 10.536274
+  },
+  {
+    "stop_id": 8010077,
+    "stop_name": "Dessau Hbf",
+    "stop_lat": 51.839865,
+    "stop_lon": 12.234948
+  },
+  {
+    "stop_id": 8400173,
+    "stop_name": "Deventer",
+    "stop_lat": 52.257432,
+    "stop_lon": 6.160505
+  },
+  {
+    "stop_id": 8001443,
+    "stop_name": "Diepholz",
+    "stop_lat": 52.604775,
+    "stop_lon": 8.380338
+  },
+  {
+    "stop_id": 7900017,
+    "stop_name": "Dobova",
+    "stop_lat": 45.898391,
+    "stop_lon": 15.655182
+  },
+  {
+    "stop_id": 7900042,
+    "stop_name": "Dobova(Gr)",
+    "stop_lat": 45.890633,
+    "stop_lon": 15.680235
+  },
+  {
+    "stop_id": 8300057,
+    "stop_name": "Domodossola",
+    "stop_lat": 46.115292,
+    "stop_lon": 8.296235
+  },
+  {
+    "stop_id": 8000077,
+    "stop_name": "Donaueschingen",
+    "stop_lat": 47.947788,
+    "stop_lon": 8.498923
+  },
+  {
+    "stop_id": 8000078,
+    "stop_name": "Donauwörth",
+    "stop_lat": 48.714028,
+    "stop_lon": 10.771441
+  },
+  {
+    "stop_id": 8100098,
+    "stop_name": "Dorfgastein",
+    "stop_lat": 47.238674,
+    "stop_lon": 13.103063
+  },
+  {
+    "stop_id": 8100122,
+    "stop_name": "Dornbirn",
+    "stop_lat": 47.417694,
+    "stop_lon": 9.738805
+  },
+  {
+    "stop_id": 8000080,
+    "stop_name": "Dortmund Hbf",
+    "stop_lat": 51.517899,
+    "stop_lon": 7.459294
+  },
+  {
+    "stop_id": 8010085,
+    "stop_name": "Dresden Hbf",
+    "stop_lat": 51.040562,
+    "stop_lon": 13.732039
+  },
+  {
+    "stop_id": 8010089,
+    "stop_name": "Dresden-Neustadt",
+    "stop_lat": 51.065903,
+    "stop_lon": 13.740704
+  },
+  {
+    "stop_id": 8000086,
+    "stop_name": "Duisburg Hbf",
+    "stop_lat": 51.429786,
+    "stop_lon": 6.775907
+  },
+  {
+    "stop_id": 8000084,
+    "stop_name": "Düren",
+    "stop_lat": 50.809513,
+    "stop_lon": 6.482454
+  },
+  {
+    "stop_id": 8000082,
+    "stop_name": "Düsseldorf Flughafen",
+    "stop_lat": 51.292009,
+    "stop_lon": 6.786838
+  },
+  {
+    "stop_id": 8000085,
+    "stop_name": "Düsseldorf Hbf",
+    "stop_lat": 51.21996,
+    "stop_lon": 6.794317
+  },
+  {
+    "stop_id": 8010093,
+    "stop_name": "Eberswalde Hbf",
+    "stop_lat": 52.834018,
+    "stop_lon": 13.797058
+  },
+  {
+    "stop_id": 8010097,
+    "stop_name": "Eisenach",
+    "stop_lat": 50.976919,
+    "stop_lon": 10.331986
+  },
+  {
+    "stop_id": 8001751,
+    "stop_name": "Ellwangen",
+    "stop_lat": 48.964117,
+    "stop_lon": 10.129683
+  },
+  {
+    "stop_id": 8010099,
+    "stop_name": "Elsterwerda",
+    "stop_lat": 51.459675,
+    "stop_lon": 13.516432
+  },
+  {
+    "stop_id": 8000093,
+    "stop_name": "Elze(Han)",
+    "stop_lat": 52.120149,
+    "stop_lon": 9.746896
+  },
+  {
+    "stop_id": 8001767,
+    "stop_name": "Emden Außenhafen",
+    "stop_lat": 53.344471,
+    "stop_lon": 7.186175
+  },
+  {
+    "stop_id": 8001768,
+    "stop_name": "Emden Hbf",
+    "stop_lat": 53.369038,
+    "stop_lon": 7.195173
+  },
+  {
+    "stop_id": 8001774,
+    "stop_name": "Emmerich(Gr)",
+    "stop_lat": 51.90119,
+    "stop_lon": 6.137655
+  },
+  {
+    "stop_id": 8001790,
+    "stop_name": "Engen",
+    "stop_lat": 47.856349,
+    "stop_lon": 8.772789
+  },
+  {
+    "stop_id": 8010101,
+    "stop_name": "Erfurt Hbf",
+    "stop_lat": 50.97255,
+    "stop_lon": 11.038502
+  },
+  {
+    "stop_id": 8001833,
+    "stop_name": "Ergenzingen",
+    "stop_lat": 48.489532,
+    "stop_lon": 8.80986
+  },
+  {
+    "stop_id": 8001844,
+    "stop_name": "Erlangen",
+    "stop_lat": 49.595897,
+    "stop_lon": 11.001907
+  },
+  {
+    "stop_id": 8000098,
+    "stop_name": "Essen Hbf",
+    "stop_lat": 51.451351,
+    "stop_lon": 7.014795
+  },
+  {
+    "stop_id": 8001920,
+    "stop_name": "Esslingen(Neckar)",
+    "stop_lat": 48.738811,
+    "stop_lon": 9.300078
+  },
+  {
+    "stop_id": 8000101,
+    "stop_name": "Eutingen im Gäu",
+    "stop_lat": 48.479949,
+    "stop_lon": 8.782236
+  },
+  {
+    "stop_id": 8001274,
+    "stop_name": "Fehmarn-Burg",
+    "stop_lat": 54.443591,
+    "stop_lon": 11.188981
+  },
+  {
+    "stop_id": 8100197,
+    "stop_name": "Feldkirch",
+    "stop_lat": 47.240975,
+    "stop_lon": 9.604102
+  },
+  {
+    "stop_id": 8100053,
+    "stop_name": "Fieberbrunn",
+    "stop_lat": 47.491136,
+    "stop_lon": 12.52894
+  },
+  {
+    "stop_id": 8300151,
+    "stop_name": "Firenze S.M.N.",
+    "stop_lat": 43.776811,
+    "stop_lon": 11.247807
+  },
+  {
+    "stop_id": 8001995,
+    "stop_name": "Fischen",
+    "stop_lat": 47.45659,
+    "stop_lon": 10.271713
+  },
+  {
+    "stop_id": 8000103,
+    "stop_name": "Flensburg",
+    "stop_lat": 54.774043,
+    "stop_lon": 9.436525
+  },
+  {
+    "stop_id": 8002007,
+    "stop_name": "Flensburg(Gr)",
+    "stop_lat": 54.814845,
+    "stop_lon": 9.363236
+  },
+  {
+    "stop_id": 8100353,
+    "stop_name": "Flughafen Wien",
+    "stop_lat": 48.120902,
+    "stop_lon": 16.563074
+  },
+  {
+    "stop_id": 8700271,
+    "stop_name": "Forbach(F)",
+    "stop_lat": 49.189216,
+    "stop_lon": 6.900255
+  },
+  {
+    "stop_id": 8002021,
+    "stop_name": "Forbach(fr)",
+    "stop_lat": 49.214089,
+    "stop_lon": 6.944311
+  },
+  {
+    "stop_id": 8300089,
+    "stop_name": "Fortezza/Franzensfeste",
+    "stop_lat": 46.788719,
+    "stop_lon": 11.610081
+  },
+  {
+    "stop_id": 8070003,
+    "stop_name": "Frankfurt(M) Flughafen Fernbf",
+    "stop_lat": 50.053169,
+    "stop_lon": 8.570181
+  },
+  {
+    "stop_id": 8070004,
+    "stop_name": "Frankfurt(M) Flughafen Regionalbf",
+    "stop_lat": 50.051219,
+    "stop_lon": 8.57125
+  },
+  {
+    "stop_id": 8000105,
+    "stop_name": "Frankfurt(Main)Hbf",
+    "stop_lat": 50.107149,
+    "stop_lon": 8.663785
+  },
+  {
+    "stop_id": 8002041,
+    "stop_name": "Frankfurt(Main)Süd",
+    "stop_lat": 50.099365,
+    "stop_lon": 8.686456
+  },
+  {
+    "stop_id": 8002042,
+    "stop_name": "Frankfurt(Main)West",
+    "stop_lat": 50.118862,
+    "stop_lon": 8.639335
+  },
+  {
+    "stop_id": 8010113,
+    "stop_name": "Frankfurt(Oder)",
+    "stop_lat": 52.33642,
+    "stop_lon": 14.546497
+  },
+  {
+    "stop_id": 8089124,
+    "stop_name": "Frankfurt(Oder)(Gr)",
+    "stop_lat": 52.321175,
+    "stop_lon": 14.576404
+  },
+  {
+    "stop_id": 8600623,
+    "stop_name": "Fredericia st",
+    "stop_lat": 55.568087,
+    "stop_lon": 9.738814
+  },
+  {
+    "stop_id": 8000107,
+    "stop_name": "Freiburg(Breisgau) Hbf",
+    "stop_lat": 47.997696,
+    "stop_lon": 7.841174
+  },
+  {
+    "stop_id": 8000108,
+    "stop_name": "Freilassing",
+    "stop_lat": 47.836915,
+    "stop_lon": 12.977196
+  },
+  {
+    "stop_id": 8000111,
+    "stop_name": "Friedberg(Hess)",
+    "stop_lat": 50.332608,
+    "stop_lon": 8.762056
+  },
+  {
+    "stop_id": 8000112,
+    "stop_name": "Friedrichshafen Stadt",
+    "stop_lat": 47.65322,
+    "stop_lon": 9.473902
+  },
+  {
+    "stop_id": 8000115,
+    "stop_name": "Fulda",
+    "stop_lat": 50.554722,
+    "stop_lon": 9.68398
+  },
+  {
+    "stop_id": 8000114,
+    "stop_name": "Fürth(Bay)Hbf",
+    "stop_lat": 49.469706,
+    "stop_lon": 10.989987
+  },
+  {
+    "stop_id": 8002187,
+    "stop_name": "Garmisch-Partenkirchen",
+    "stop_lat": 47.49145,
+    "stop_lon": 11.097013
+  },
+  {
+    "stop_id": 5100009,
+    "stop_name": "Gdansk Glowny",
+    "stop_lat": 54.355523,
+    "stop_lon": 18.643807
+  },
+  {
+    "stop_id": 5101104,
+    "stop_name": "Gdansk Oliwa",
+    "stop_lat": 54.40989,
+    "stop_lon": 18.571741
+  },
+  {
+    "stop_id": 5101307,
+    "stop_name": "Gdansk Wrzeszcz",
+    "stop_lat": 54.381862,
+    "stop_lon": 18.605432
+  },
+  {
+    "stop_id": 5100010,
+    "stop_name": "Gdynia Glowna",
+    "stop_lat": 54.520844,
+    "stop_lon": 18.529555
+  },
+  {
+    "stop_id": 8002206,
+    "stop_name": "Geilenkirchen",
+    "stop_lat": 50.961035,
+    "stop_lon": 6.124522
+  },
+  {
+    "stop_id": 8002218,
+    "stop_name": "Geislingen(Steige)",
+    "stop_lat": 48.619354,
+    "stop_lon": 9.841939
+  },
+  {
+    "stop_id": 8000118,
+    "stop_name": "Gelsenkirchen Hbf",
+    "stop_lat": 51.5049,
+    "stop_lon": 7.102458
+  },
+  {
+    "stop_id": 8010125,
+    "stop_name": "Gera Hbf",
+    "stop_lat": 50.883422,
+    "stop_lon": 12.077088
+  },
+  {
+    "stop_id": 8000124,
+    "stop_name": "Gießen",
+    "stop_lat": 50.579056,
+    "stop_lon": 8.661466
+  },
+  {
+    "stop_id": 5100011,
+    "stop_name": "Gliwice",
+    "stop_lat": 50.30111,
+    "stop_lon": 18.677157
+  },
+  {
+    "stop_id": 5100012,
+    "stop_name": "Glogow",
+    "stop_lat": 51.668953,
+    "stop_lon": 16.079715
+  },
+  {
+    "stop_id": 5100013,
+    "stop_name": "Gniezno",
+    "stop_lat": 52.529652,
+    "stop_lon": 17.602182
+  },
+  {
+    "stop_id": 8100041,
+    "stop_name": "Golling-Abtenau",
+    "stop_lat": 47.600579,
+    "stop_lon": 13.164082
+  },
+  {
+    "stop_id": 8010136,
+    "stop_name": "Gotha",
+    "stop_lat": 50.939074,
+    "stop_lon": 10.712571
+  },
+  {
+    "stop_id": 8100173,
+    "stop_name": "Graz Hbf",
+    "stop_lat": 47.072301,
+    "stop_lon": 15.416437
+  },
+  {
+    "stop_id": 8010139,
+    "stop_name": "Greifswald",
+    "stop_lat": 54.092921,
+    "stop_lon": 13.370259
+  },
+  {
+    "stop_id": 8400263,
+    "stop_name": "Groningen",
+    "stop_lat": 53.210684,
+    "stop_lon": 6.564274
+  },
+  {
+    "stop_id": 8000385,
+    "stop_name": "Gunzenhausen",
+    "stop_lat": 49.120448,
+    "stop_lon": 10.755467
+  },
+  {
+    "stop_id": 5500080,
+    "stop_name": "Györ",
+    "stop_lat": 47.681986,
+    "stop_lon": 17.634795
+  },
+  {
+    "stop_id": 8002166,
+    "stop_name": "Gäufelden",
+    "stop_lat": 48.559665,
+    "stop_lon": 8.850312
+  },
+  {
+    "stop_id": 8000127,
+    "stop_name": "Göppingen",
+    "stop_lat": 48.700023,
+    "stop_lon": 9.65197
+  },
+  {
+    "stop_id": 8000128,
+    "stop_name": "Göttingen",
+    "stop_lat": 51.536812,
+    "stop_lon": 9.926069
+  },
+  {
+    "stop_id": 8000139,
+    "stop_name": "Günzburg",
+    "stop_lat": 48.460335,
+    "stop_lon": 10.278653
+  },
+  {
+    "stop_id": 8002461,
+    "stop_name": "Gütersloh Hbf",
+    "stop_lat": 51.906943,
+    "stop_lon": 8.385075
+  },
+  {
+    "stop_id": 8002504,
+    "stop_name": "Haffkrug",
+    "stop_lat": 54.054187,
+    "stop_lon": 10.742685
+  },
+  {
+    "stop_id": 8000142,
+    "stop_name": "Hagen Hbf",
+    "stop_lat": 51.362745,
+    "stop_lon": 7.460247
+  },
+  {
+    "stop_id": 8010159,
+    "stop_name": "Halle(Saale)Hbf",
+    "stop_lat": 51.47751,
+    "stop_lon": 11.987088
+  },
+  {
+    "stop_id": 8100040,
+    "stop_name": "Hallein",
+    "stop_lat": 47.685168,
+    "stop_lon": 13.099432
+  },
+  {
+    "stop_id": 8002548,
+    "stop_name": "Hamburg Dammtor",
+    "stop_lat": 53.560751,
+    "stop_lon": 9.989569
+  },
+  {
+    "stop_id": 8002549,
+    "stop_name": "Hamburg Hbf",
+    "stop_lat": 53.552733,
+    "stop_lon": 10.006909
+  },
+  {
+    "stop_id": 8002553,
+    "stop_name": "Hamburg-Altona",
+    "stop_lat": 53.552697,
+    "stop_lon": 9.935175
+  },
+  {
+    "stop_id": 8002554,
+    "stop_name": "Hamburg-Bergedorf",
+    "stop_lat": 53.489835,
+    "stop_lon": 10.206173
+  },
+  {
+    "stop_id": 8000147,
+    "stop_name": "Hamburg-Harburg",
+    "stop_lat": 53.45591,
+    "stop_lon": 9.991699
+  },
+  {
+    "stop_id": 8000149,
+    "stop_name": "Hamm(Westf)",
+    "stop_lat": 51.678077,
+    "stop_lon": 7.807824
+  },
+  {
+    "stop_id": 8002570,
+    "stop_name": "Hammerau",
+    "stop_lat": 47.795879,
+    "stop_lon": 12.94613
+  },
+  {
+    "stop_id": 8000150,
+    "stop_name": "Hanau Hbf",
+    "stop_lat": 50.120957,
+    "stop_lon": 8.929003
+  },
+  {
+    "stop_id": 8000152,
+    "stop_name": "Hannover Hbf",
+    "stop_lat": 52.376764,
+    "stop_lon": 9.741017
+  },
+  {
+    "stop_id": 8003487,
+    "stop_name": "Hannover Messe/Laatzen",
+    "stop_lat": 52.316896,
+    "stop_lon": 9.792867
+  },
+  {
+    "stop_id": 8000333,
+    "stop_name": "Hausach",
+    "stop_lat": 48.284928,
+    "stop_lon": 8.181667
+  },
+  {
+    "stop_id": 8613696,
+    "stop_name": "Hedensted st",
+    "stop_lat": 55.767998,
+    "stop_lon": 9.699496
+  },
+  {
+    "stop_id": 5500017,
+    "stop_name": "Hegyeshalom",
+    "stop_lat": 47.913503,
+    "stop_lon": 17.147023
+  },
+  {
+    "stop_id": 5501629,
+    "stop_name": "Hegyeshalom(Gr)",
+    "stop_lat": 47.938259,
+    "stop_lon": 17.095847
+  },
+  {
+    "stop_id": 8000155,
+    "stop_name": "Heide(Holst)",
+    "stop_lat": 54.193565,
+    "stop_lon": 9.10103
+  },
+  {
+    "stop_id": 8000156,
+    "stop_name": "Heidelberg Hbf",
+    "stop_lat": 49.403564,
+    "stop_lon": 8.675444
+  },
+  {
+    "stop_id": 8000157,
+    "stop_name": "Heilbronn Hbf",
+    "stop_lat": 49.143308,
+    "stop_lon": 9.207714
+  },
+  {
+    "stop_id": 8000159,
+    "stop_name": "Helmstedt",
+    "stop_lat": 52.222086,
+    "stop_lon": 11.010554
+  },
+  {
+    "stop_id": 8400316,
+    "stop_name": "Hengelo",
+    "stop_lat": 52.261855,
+    "stop_lon": 6.793724
+  },
+  {
+    "stop_id": 8002757,
+    "stop_name": "Heppenheim(Bergstr)",
+    "stop_lat": 49.641553,
+    "stop_lon": 8.633375
+  },
+  {
+    "stop_id": 8000162,
+    "stop_name": "Herford",
+    "stop_lat": 52.119609,
+    "stop_lon": 8.663642
+  },
+  {
+    "stop_id": 8011862,
+    "stop_name": "Hermsdorf-Klosterlausnitz",
+    "stop_lat": 50.903782,
+    "stop_lon": 11.858624
+  },
+  {
+    "stop_id": 8002785,
+    "stop_name": "Herrenberg",
+    "stop_lat": 48.593995,
+    "stop_lon": 8.862663
+  },
+  {
+    "stop_id": 8002806,
+    "stop_name": "Herzogenrath",
+    "stop_lat": 50.870918,
+    "stop_lon": 6.094489
+  },
+  {
+    "stop_id": 8099503,
+    "stop_name": "Hildesheim Gbf",
+    "stop_lat": 52.157391,
+    "stop_lon": 9.942375
+  },
+  {
+    "stop_id": 8000169,
+    "stop_name": "Hildesheim Hbf",
+    "stop_lat": 52.160627,
+    "stop_lon": 9.953495
+  },
+  {
+    "stop_id": 8400322,
+    "stop_name": "Hilversum",
+    "stop_lat": 52.226671,
+    "stop_lon": 5.1814
+  },
+  {
+    "stop_id": 8100052,
+    "stop_name": "Hochfilzen",
+    "stop_lat": 47.46771,
+    "stop_lon": 12.626527
+  },
+  {
+    "stop_id": 8601031,
+    "stop_name": "Hoeje Taastrup st",
+    "stop_lat": 55.648622,
+    "stop_lon": 12.268801
+  },
+  {
+    "stop_id": 8000176,
+    "stop_name": "Homburg(Saar)Hbf",
+    "stop_lat": 49.328081,
+    "stop_lon": 7.337032
+  },
+  {
+    "stop_id": 8100059,
+    "stop_name": "Hopfgarten im Brixental",
+    "stop_lat": 47.45535,
+    "stop_lon": 12.149182
+  },
+  {
+    "stop_id": 8000177,
+    "stop_name": "Horb",
+    "stop_lat": 48.441475,
+    "stop_lon": 8.688982
+  },
+  {
+    "stop_id": 8003001,
+    "stop_name": "Hornberg(Schwarzw)",
+    "stop_lat": 48.211891,
+    "stop_lon": 8.232941
+  },
+  {
+    "stop_id": 8601089,
+    "stop_name": "Horsens st",
+    "stop_lat": 55.86279,
+    "stop_lon": 9.835502
+  },
+  {
+    "stop_id": 8000522,
+    "stop_name": "Hude",
+    "stop_lat": 53.10943,
+    "stop_lon": 8.460953
+  },
+  {
+    "stop_id": 8000181,
+    "stop_name": "Husum",
+    "stop_lat": 54.472275,
+    "stop_lon": 9.055023
+  },
+  {
+    "stop_id": 8003016,
+    "stop_name": "Hünfeld",
+    "stop_lat": 50.673272,
+    "stop_lon": 9.762456
+  },
+  {
+    "stop_id": 8003036,
+    "stop_name": "Ibbenbüren",
+    "stop_lat": 52.276867,
+    "stop_lon": 7.721482
+  },
+  {
+    "stop_id": 8003042,
+    "stop_name": "Igel",
+    "stop_lat": 49.707372,
+    "stop_lon": 6.550682
+  },
+  {
+    "stop_id": 8000303,
+    "stop_name": "Igel(Gr)",
+    "stop_lat": 49.723499,
+    "stop_lon": 6.518204
+  },
+  {
+    "stop_id": 5100075,
+    "stop_name": "Ilawa Glowna",
+    "stop_lat": 53.582253,
+    "stop_lon": 19.573849
+  },
+  {
+    "stop_id": 7900029,
+    "stop_name": "Ilirska Bistrica",
+    "stop_lat": 45.569278,
+    "stop_lon": 14.236037
+  },
+  {
+    "stop_id": 8000182,
+    "stop_name": "Immendingen",
+    "stop_lat": 47.936003,
+    "stop_lon": 8.729533
+  },
+  {
+    "stop_id": 8003065,
+    "stop_name": "Immenstadt",
+    "stop_lat": 47.559202,
+    "stop_lon": 10.214002
+  },
+  {
+    "stop_id": 8100062,
+    "stop_name": "Imst-Pitztal",
+    "stop_lat": 47.219077,
+    "stop_lon": 10.76167
+  },
+  {
+    "stop_id": 8000183,
+    "stop_name": "Ingolstadt Hbf",
+    "stop_lat": 48.744538,
+    "stop_lon": 11.437335
+  },
+  {
+    "stop_id": 8100108,
+    "stop_name": "Innsbruck Hbf",
+    "stop_lat": 47.263277,
+    "stop_lon": 11.401001
+  },
+  {
+    "stop_id": 5100015,
+    "stop_name": "Inowroclaw",
+    "stop_lat": 52.804947,
+    "stop_lon": 18.244057
+  },
+  {
+    "stop_id": 5101362,
+    "stop_name": "Inowroclaw Rabinek",
+    "stop_lat": 52.768082,
+    "stop_lon": 18.240569
+  },
+  {
+    "stop_id": 8507492,
+    "stop_name": "Interlaken Ost",
+    "stop_lat": 46.690502,
+    "stop_lon": 7.869004
+  },
+  {
+    "stop_id": 8507493,
+    "stop_name": "Interlaken West",
+    "stop_lat": 46.682951,
+    "stop_lon": 7.851367
+  },
+  {
+    "stop_id": 8300366,
+    "stop_name": "Iselle transito",
+    "stop_lat": 46.187969,
+    "stop_lon": 8.187303
+  },
+  {
+    "stop_id": 8003102,
+    "stop_name": "Itzehoe",
+    "stop_lat": 53.92387,
+    "stop_lon": 9.510291
+  },
+  {
+    "stop_id": 5100233,
+    "stop_name": "Jaroslaw",
+    "stop_lat": 50.010668,
+    "stop_lon": 22.677897
+  },
+  {
+    "stop_id": 5100213,
+    "stop_name": "Jaworzno Szczakowa",
+    "stop_lat": 50.246329,
+    "stop_lon": 19.297422
+  },
+  {
+    "stop_id": 8011956,
+    "stop_name": "Jena Paradies",
+    "stop_lat": 50.924853,
+    "stop_lon": 11.587464
+  },
+  {
+    "stop_id": 8011957,
+    "stop_name": "Jena West",
+    "stop_lat": 50.923289,
+    "stop_lon": 11.577846
+  },
+  {
+    "stop_id": 8010133,
+    "stop_name": "Jena-Göschwitz",
+    "stop_lat": 50.883943,
+    "stop_lon": 11.593541
+  },
+  {
+    "stop_id": 8100102,
+    "stop_name": "Jenbach",
+    "stop_lat": 47.388452,
+    "stop_lon": 11.778458
+  },
+  {
+    "stop_id": 7900043,
+    "stop_name": "Jesenice(Gr)",
+    "stop_lat": 46.481413,
+    "stop_lon": 14.020332
+  },
+  {
+    "stop_id": 7900001,
+    "stop_name": "Jesenice(SL)",
+    "stop_lat": 46.436323,
+    "stop_lon": 14.054913
+  },
+  {
+    "stop_id": 7800319,
+    "stop_name": "Jurdani",
+    "stop_lat": 45.393089,
+    "stop_lon": 14.308553
+  },
+  {
+    "stop_id": 8000189,
+    "stop_name": "Kaiserslautern Hbf",
+    "stop_lat": 49.436141,
+    "stop_lon": 7.768712
+  },
+  {
+    "stop_id": 8000191,
+    "stop_name": "Karlsruhe Hbf",
+    "stop_lat": 48.993512,
+    "stop_lon": 8.402181
+  },
+  {
+    "stop_id": 8003184,
+    "stop_name": "Karlsruhe-Durlach",
+    "stop_lat": 49.00233,
+    "stop_lon": 8.462823
+  },
+  {
+    "stop_id": 8003200,
+    "stop_name": "Kassel-Wilhelmshöhe",
+    "stop_lat": 51.313115,
+    "stop_lon": 9.446899
+  },
+  {
+    "stop_id": 5100020,
+    "stop_name": "Katowice",
+    "stop_lat": 50.257512,
+    "stop_lon": 19.017165
+  },
+  {
+    "stop_id": 8000194,
+    "stop_name": "Kaufbeuren",
+    "stop_lat": 47.875433,
+    "stop_lon": 10.629493
+  },
+  {
+    "stop_id": 5100119,
+    "stop_name": "Kedzierzyn Kozle",
+    "stop_lat": 50.344357,
+    "stop_lon": 18.204765
+  },
+  {
+    "stop_id": 8000008,
+    "stop_name": "Kehl(Gr)",
+    "stop_lat": 48.575648,
+    "stop_lon": 7.801118
+  },
+  {
+    "stop_id": 5500008,
+    "stop_name": "Kelenföld",
+    "stop_lat": 47.464357,
+    "stop_lon": 19.020455
+  },
+  {
+    "stop_id": 8000197,
+    "stop_name": "Kempten(Allgäu)Hbf",
+    "stop_lat": 47.711749,
+    "stop_lon": 10.317612
+  },
+  {
+    "stop_id": 8000199,
+    "stop_name": "Kiel Hbf",
+    "stop_lat": 54.314982,
+    "stop_lon": 10.131976
+  },
+  {
+    "stop_id": 8100057,
+    "stop_name": "Kirchberg in Tirol",
+    "stop_lat": 47.448922,
+    "stop_lon": 12.3091
+  },
+  {
+    "stop_id": 8100055,
+    "stop_name": "Kitzbühel",
+    "stop_lat": 47.454109,
+    "stop_lon": 12.391046
+  },
+  {
+    "stop_id": 8101044,
+    "stop_name": "Kitzbühel Hahnenkamm",
+    "stop_lat": 47.443385,
+    "stop_lon": 12.389859
+  },
+  {
+    "stop_id": 8100085,
+    "stop_name": "Klagenfurt Hbf",
+    "stop_lat": 46.615586,
+    "stop_lon": 14.313569
+  },
+  {
+    "stop_id": 8003350,
+    "stop_name": "Kobern-Gondorf",
+    "stop_lat": 50.300714,
+    "stop_lon": 7.46075
+  },
+  {
+    "stop_id": 8000206,
+    "stop_name": "Koblenz Hbf",
+    "stop_lat": 50.350928,
+    "stop_lon": 7.588343
+  },
+  {
+    "stop_id": 8601309,
+    "stop_name": "Koebenhavn H",
+    "stop_lat": 55.672722,
+    "stop_lon": 12.564618
+  },
+  {
+    "stop_id": 8601242,
+    "stop_name": "Koebenhavns Lufthavn st",
+    "stop_lat": 55.629609,
+    "stop_lon": 12.649378
+  },
+  {
+    "stop_id": 8601318,
+    "stop_name": "Kolding st",
+    "stop_lat": 55.490843,
+    "stop_lon": 9.481525
+  },
+  {
+    "stop_id": 5100026,
+    "stop_name": "Konin",
+    "stop_lat": 52.231399,
+    "stop_lon": 18.253334
+  },
+  {
+    "stop_id": 8003400,
+    "stop_name": "Konstanz",
+    "stop_lat": 47.658757,
+    "stop_lon": 9.177312
+  },
+  {
+    "stop_id": 8003411,
+    "stop_name": "Kornwestheim Pbf",
+    "stop_lat": 48.862215,
+    "stop_lon": 9.179964
+  },
+  {
+    "stop_id": 8601343,
+    "stop_name": "Korsoer st",
+    "stop_lat": 55.3572,
+    "stop_lon": 11.135127
+  },
+  {
+    "stop_id": 5100028,
+    "stop_name": "Krakow Glowny",
+    "stop_lat": 50.067192,
+    "stop_lon": 19.947423
+  },
+  {
+    "stop_id": 5100240,
+    "stop_name": "Krakow Plaszow",
+    "stop_lat": 50.035092,
+    "stop_lon": 19.974894
+  },
+  {
+    "stop_id": 7900014,
+    "stop_name": "Kranj",
+    "stop_lat": 46.23901,
+    "stop_lon": 14.348168
+  },
+  {
+    "stop_id": 8000211,
+    "stop_name": "Krefeld Hbf",
+    "stop_lat": 51.325718,
+    "stop_lon": 6.569883
+  },
+  {
+    "stop_id": 8000213,
+    "stop_name": "Kreiensen",
+    "stop_lat": 51.851425,
+    "stop_lon": 9.967797
+  },
+  {
+    "stop_id": 8003434,
+    "stop_name": "Kreuz Konz",
+    "stop_lat": 49.703794,
+    "stop_lon": 6.576868
+  },
+  {
+    "stop_id": 8003446,
+    "stop_name": "Kronach",
+    "stop_lat": 50.239614,
+    "stop_lon": 11.320116
+  },
+  {
+    "stop_id": 7900030,
+    "stop_name": "Krsko",
+    "stop_lat": 45.956237,
+    "stop_lon": 15.493457
+  },
+  {
+    "stop_id": 8100079,
+    "stop_name": "Krumpendorf/Wörthersee",
+    "stop_lat": 46.626337,
+    "stop_lon": 14.22151
+  },
+  {
+    "stop_id": 5101863,
+    "stop_name": "Krzeszowice",
+    "stop_lat": 50.130962,
+    "stop_lon": 19.633241
+  },
+  {
+    "stop_id": 8100001,
+    "stop_name": "Kufstein",
+    "stop_lat": 47.583077,
+    "stop_lon": 12.165551
+  },
+  {
+    "stop_id": 5100032,
+    "stop_name": "Kutno",
+    "stop_lat": 52.226959,
+    "stop_lon": 19.348616
+  },
+  {
+    "stop_id": 5600081,
+    "stop_name": "Kuty",
+    "stop_lat": 48.661891,
+    "stop_lon": 17.047692
+  },
+  {
+    "stop_id": 5603738,
+    "stop_name": "Kuty(Gr)",
+    "stop_lat": 48.71108,
+    "stop_lon": 17.000409
+  },
+  {
+    "stop_id": 8000207,
+    "stop_name": "Köln Hbf",
+    "stop_lat": 50.943029,
+    "stop_lon": 6.95873
+  },
+  {
+    "stop_id": 8003368,
+    "stop_name": "Köln Messe/Deutz",
+    "stop_lat": 50.940872,
+    "stop_lon": 6.975
+  },
+  {
+    "stop_id": 8073368,
+    "stop_name": "Köln Messe/Deutz Gl.11-12",
+    "stop_lat": 50.941717,
+    "stop_lon": 6.974065
+  },
+  {
+    "stop_id": 8000208,
+    "stop_name": "Köln-Ehrenfeld",
+    "stop_lat": 50.951533,
+    "stop_lon": 6.91728
+  },
+  {
+    "stop_id": 8003330,
+    "stop_name": "Köln/Bonn Flughafen",
+    "stop_lat": 50.8789,
+    "stop_lon": 7.119304
+  },
+  {
+    "stop_id": 8010193,
+    "stop_name": "Königs Wusterhausen",
+    "stop_lat": 52.296634,
+    "stop_lon": 13.631476
+  },
+  {
+    "stop_id": 8010195,
+    "stop_name": "Köthen",
+    "stop_lat": 51.751933,
+    "stop_lon": 11.989354
+  },
+  {
+    "stop_id": 8003494,
+    "stop_name": "Lahr(Schwarzw)",
+    "stop_lat": 48.340436,
+    "stop_lon": 7.834737
+  },
+  {
+    "stop_id": 5101932,
+    "stop_name": "Lancut",
+    "stop_lat": 50.081431,
+    "stop_lon": 22.22751
+  },
+  {
+    "stop_id": 8100063,
+    "stop_name": "Landeck-Zams",
+    "stop_lat": 47.148242,
+    "stop_lon": 10.578389
+  },
+  {
+    "stop_id": 8509002,
+    "stop_name": "Landquart",
+    "stop_lat": 46.967442,
+    "stop_lon": 9.554032
+  },
+  {
+    "stop_id": 8003515,
+    "stop_name": "Landstuhl",
+    "stop_lat": 49.416283,
+    "stop_lon": 7.565933
+  },
+  {
+    "stop_id": 8100065,
+    "stop_name": "Langen am Arlberg",
+    "stop_lat": 47.13172,
+    "stop_lon": 10.120371
+  },
+  {
+    "stop_id": 8003545,
+    "stop_name": "Langenhagen Mitte",
+    "stop_lat": 52.440282,
+    "stop_lon": 9.725429
+  },
+  {
+    "stop_id": 8601404,
+    "stop_name": "Langeskov st",
+    "stop_lat": 55.344903,
+    "stop_lon": 10.598597
+  },
+  {
+    "stop_id": 8000225,
+    "stop_name": "Leer(Ostfriesl)",
+    "stop_lat": 53.231647,
+    "stop_lon": 7.465281
+  },
+  {
+    "stop_id": 8010205,
+    "stop_name": "Leipzig Hbf",
+    "stop_lat": 51.345467,
+    "stop_lon": 12.382066
+  },
+  {
+    "stop_id": 8012478,
+    "stop_name": "Leipzig Messe",
+    "stop_lat": 51.396149,
+    "stop_lon": 12.389275
+  },
+  {
+    "stop_id": 8012183,
+    "stop_name": "Leipzig/Halle Flughafen",
+    "stop_lat": 51.423341,
+    "stop_lon": 12.223424
+  },
+  {
+    "stop_id": 8502119,
+    "stop_name": "Lenzburg",
+    "stop_lat": 47.391301,
+    "stop_lon": 8.170583
+  },
+  {
+    "stop_id": 8100070,
+    "stop_name": "Leoben Hbf",
+    "stop_lat": 47.3866,
+    "stop_lon": 15.089607
+  },
+  {
+    "stop_id": 7900002,
+    "stop_name": "Lesce-Bled",
+    "stop_lat": 46.360418,
+    "stop_lon": 14.157974
+  },
+  {
+    "stop_id": 8006713,
+    "stop_name": "Leverkusen Mitte",
+    "stop_lat": 51.03151,
+    "stop_lon": 6.991657
+  },
+  {
+    "stop_id": 8000228,
+    "stop_name": "Lichtenfels",
+    "stop_lat": 50.14645,
+    "stop_lon": 11.059474
+  },
+  {
+    "stop_id": 8500023,
+    "stop_name": "Liestal",
+    "stop_lat": 47.484376,
+    "stop_lon": 7.731352
+  },
+  {
+    "stop_id": 8100131,
+    "stop_name": "Liezen",
+    "stop_lat": 47.562708,
+    "stop_lon": 14.241889
+  },
+  {
+    "stop_id": 8003680,
+    "stop_name": "Limburg Süd",
+    "stop_lat": 50.382498,
+    "stop_lon": 8.096108
+  },
+  {
+    "stop_id": 8000230,
+    "stop_name": "Lindau Hbf",
+    "stop_lat": 47.544343,
+    "stop_lon": 9.680465
+  },
+  {
+    "stop_id": 8003701,
+    "stop_name": "Lingen(Ems)",
+    "stop_lat": 52.519863,
+    "stop_lon": 7.321732
+  },
+  {
+    "stop_id": 8100013,
+    "stop_name": "Linz Hbf",
+    "stop_lat": 48.290178,
+    "stop_lon": 14.292129
+  },
+  {
+    "stop_id": 8003708,
+    "stop_name": "Linz(Rhein)",
+    "stop_lat": 50.569339,
+    "stop_lon": 7.276031
+  },
+  {
+    "stop_id": 8000571,
+    "stop_name": "Lippstadt",
+    "stop_lat": 51.670688,
+    "stop_lon": 8.348785
+  },
+  {
+    "stop_id": 8800012,
+    "stop_name": "Liège-Guillemins",
+    "stop_lat": 50.624362,
+    "stop_lon": 5.56648
+  },
+  {
+    "stop_id": 7900003,
+    "stop_name": "Ljubljana",
+    "stop_lat": 46.058687,
+    "stop_lon": 14.51294
+  },
+  {
+    "stop_id": 8700188,
+    "stop_name": "Longueau",
+    "stop_lat": 49.863614,
+    "stop_lon": 2.352513
+  },
+  {
+    "stop_id": 8000235,
+    "stop_name": "Ludwigsburg",
+    "stop_lat": 48.891862,
+    "stop_lon": 9.18542
+  },
+  {
+    "stop_id": 8000236,
+    "stop_name": "Ludwigshafen(Rh)Hbf",
+    "stop_lat": 49.477985,
+    "stop_lon": 8.433401
+  },
+  {
+    "stop_id": 8010216,
+    "stop_name": "Ludwigslust",
+    "stop_lat": 53.334672,
+    "stop_lon": 11.494489
+  },
+  {
+    "stop_id": 8505300,
+    "stop_name": "Lugano",
+    "stop_lat": 46.005506,
+    "stop_lon": 8.946874
+  },
+  {
+    "stop_id": 8601512,
+    "stop_name": "Lunderskov st",
+    "stop_lat": 55.480119,
+    "stop_lon": 9.30379
+  },
+  {
+    "stop_id": 8010222,
+    "stop_name": "Lutherstadt Wittenberg Hbf",
+    "stop_lat": 51.867813,
+    "stop_lon": 12.662286
+  },
+  {
+    "stop_id": 8200100,
+    "stop_name": "Luxembourg",
+    "stop_lat": 49.599717,
+    "stop_lon": 6.134392
+  },
+  {
+    "stop_id": 8505000,
+    "stop_name": "Luzern",
+    "stop_lat": 47.05017,
+    "stop_lon": 8.310168
+  },
+  {
+    "stop_id": 8010217,
+    "stop_name": "Lübben(Spreewald)",
+    "stop_lat": 51.939735,
+    "stop_lon": 13.877178
+  },
+  {
+    "stop_id": 8010220,
+    "stop_name": "Lübbenau(Spreewald)",
+    "stop_lat": 51.862167,
+    "stop_lon": 13.960904
+  },
+  {
+    "stop_id": 8000237,
+    "stop_name": "Lübeck Hbf",
+    "stop_lat": 53.867544,
+    "stop_lon": 10.669818
+  },
+  {
+    "stop_id": 8000238,
+    "stop_name": "Lüneburg",
+    "stop_lat": 53.249652,
+    "stop_lon": 10.419891
+  },
+  {
+    "stop_id": 8010224,
+    "stop_name": "Magdeburg Hbf",
+    "stop_lat": 52.130352,
+    "stop_lon": 11.626891
+  },
+  {
+    "stop_id": 8013456,
+    "stop_name": "Magdeburg-Buckau",
+    "stop_lat": 52.1092,
+    "stop_lon": 11.630037
+  },
+  {
+    "stop_id": 8010226,
+    "stop_name": "Magdeburg-Neustadt",
+    "stop_lat": 52.148842,
+    "stop_lon": 11.641705
+  },
+  {
+    "stop_id": 8000240,
+    "stop_name": "Mainz Hbf",
+    "stop_lat": 50.001113,
+    "stop_lon": 8.258723
+  },
+  {
+    "stop_id": 8100093,
+    "stop_name": "Mallnitz-Obervellach",
+    "stop_lat": 46.981214,
+    "stop_lon": 13.176496
+  },
+  {
+    "stop_id": 8000244,
+    "stop_name": "Mannheim Hbf",
+    "stop_lat": 49.479352,
+    "stop_lon": 8.468917
+  },
+  {
+    "stop_id": 8270690,
+    "stop_name": "Manternach",
+    "stop_lat": 49.706455,
+    "stop_lon": 6.423772
+  },
+  {
+    "stop_id": 8000337,
+    "stop_name": "Marburg(Lahn)",
+    "stop_lat": 50.819275,
+    "stop_lon": 8.775018
+  },
+  {
+    "stop_id": 8003866,
+    "stop_name": "Marienhafe",
+    "stop_lat": 53.520893,
+    "stop_lon": 7.270727
+  },
+  {
+    "stop_id": 8000249,
+    "stop_name": "Memmingen",
+    "stop_lat": 47.985578,
+    "stop_lon": 10.186855
+  },
+  {
+    "stop_id": 8003978,
+    "stop_name": "Meppen",
+    "stop_lat": 52.696025,
+    "stop_lon": 7.298018
+  },
+  {
+    "stop_id": 8270720,
+    "stop_name": "Mertert",
+    "stop_lat": 49.703255,
+    "stop_lon": 6.478643
+  },
+  {
+    "stop_id": 8004009,
+    "stop_name": "Metzingen(Württ)",
+    "stop_lat": 48.539727,
+    "stop_lon": 9.290154
+  },
+  {
+    "stop_id": 8601593,
+    "stop_name": "Middelfart st",
+    "stop_lat": 55.501621,
+    "stop_lon": 9.734661
+  },
+  {
+    "stop_id": 8300046,
+    "stop_name": "Milano Centrale",
+    "stop_lat": 45.487143,
+    "stop_lon": 9.204828
+  },
+  {
+    "stop_id": 8300062,
+    "stop_name": "Milano Lambrate",
+    "stop_lat": 45.485067,
+    "stop_lon": 9.237225
+  },
+  {
+    "stop_id": 8000252,
+    "stop_name": "Minden(Westf)",
+    "stop_lat": 52.290135,
+    "stop_lon": 8.934729
+  },
+  {
+    "stop_id": 2100003,
+    "stop_name": "Minsk-Passajirskii",
+    "stop_lat": 53.890736,
+    "stop_lon": 27.550643
+  },
+  {
+    "stop_id": 8004043,
+    "stop_name": "Mittenwald",
+    "stop_lat": 47.440032,
+    "stop_lon": 11.265704
+  },
+  {
+    "stop_id": 8004044,
+    "stop_name": "Mittenwald(Gr)",
+    "stop_lat": 47.39807,
+    "stop_lon": 11.267439
+  },
+  {
+    "stop_id": 8000667,
+    "stop_name": "Montabaur",
+    "stop_lat": 50.444838,
+    "stop_lon": 7.825335
+  },
+  {
+    "stop_id": 8300063,
+    "stop_name": "Monza",
+    "stop_lat": 45.574824,
+    "stop_lon": 9.273686
+  },
+  {
+    "stop_id": 2000058,
+    "stop_name": "Moskva Belorusskaja",
+    "stop_lat": 55.776673,
+    "stop_lon": 37.579809
+  },
+  {
+    "stop_id": 5500016,
+    "stop_name": "Mosonmagyarovar",
+    "stop_lat": 47.850354,
+    "stop_lon": 17.266426
+  },
+  {
+    "stop_id": 8270780,
+    "stop_name": "Munsbach",
+    "stop_lat": 49.630254,
+    "stop_lon": 6.268583
+  },
+  {
+    "stop_id": 8004185,
+    "stop_name": "Murnau",
+    "stop_lat": 47.682264,
+    "stop_lon": 11.192631
+  },
+  {
+    "stop_id": 5100175,
+    "stop_name": "Myslowice",
+    "stop_lat": 50.23779,
+    "stop_lon": 19.1419
+  },
+  {
+    "stop_id": 8000253,
+    "stop_name": "Mönchengladbach Hbf",
+    "stop_lat": 51.196579,
+    "stop_lon": 6.446111
+  },
+  {
+    "stop_id": 8000339,
+    "stop_name": "Mühlacker",
+    "stop_lat": 48.953195,
+    "stop_lon": 8.846105
+  },
+  {
+    "stop_id": 8000259,
+    "stop_name": "Mülheim(Ruhr)Hbf",
+    "stop_lat": 51.431341,
+    "stop_lon": 6.88651
+  },
+  {
+    "stop_id": 8004124,
+    "stop_name": "Müllheim(Baden)",
+    "stop_lat": 47.80974,
+    "stop_lon": 7.599328
+  },
+  {
+    "stop_id": 8000261,
+    "stop_name": "München Hbf",
+    "stop_lat": 48.140229,
+    "stop_lon": 11.558339
+  },
+  {
+    "stop_id": 8098262,
+    "stop_name": "München Hbf Gl.5-10",
+    "stop_lat": 48.140094,
+    "stop_lon": 11.555373
+  },
+  {
+    "stop_id": 8000262,
+    "stop_name": "München Ost",
+    "stop_lat": 48.127437,
+    "stop_lon": 11.604975
+  },
+  {
+    "stop_id": 8004147,
+    "stop_name": "München-Feldmoching",
+    "stop_lat": 48.213814,
+    "stop_lon": 11.541322
+  },
+  {
+    "stop_id": 8004158,
+    "stop_name": "München-Pasing",
+    "stop_lat": 48.149856,
+    "stop_lon": 11.461876
+  },
+  {
+    "stop_id": 8000263,
+    "stop_name": "Münster(Westf)Hbf",
+    "stop_lat": 51.956563,
+    "stop_lon": 7.635716
+  },
+  {
+    "stop_id": 8601645,
+    "stop_name": "Naestved st",
+    "stop_lat": 55.231873,
+    "stop_lon": 11.766925
+  },
+  {
+    "stop_id": 8010240,
+    "stop_name": "Naumburg(Saale)Hbf",
+    "stop_lat": 51.163067,
+    "stop_lon": 11.796985
+  },
+  {
+    "stop_id": 8006730,
+    "stop_name": "Neu-Ulm",
+    "stop_lat": 48.393041,
+    "stop_lon": 10.004823
+  },
+  {
+    "stop_id": 8004305,
+    "stop_name": "Neumarkt(Oberpf)",
+    "stop_lat": 49.27322,
+    "stop_lon": 11.456986
+  },
+  {
+    "stop_id": 8000271,
+    "stop_name": "Neumünster",
+    "stop_lat": 54.075752,
+    "stop_lon": 9.979815
+  },
+  {
+    "stop_id": 8000274,
+    "stop_name": "Neuss Hbf",
+    "stop_lat": 51.204355,
+    "stop_lon": 6.684523
+  },
+  {
+    "stop_id": 8000275,
+    "stop_name": "Neustadt(Weinstr)Hbf",
+    "stop_lat": 49.349557,
+    "stop_lon": 8.140757
+  },
+  {
+    "stop_id": 8010250,
+    "stop_name": "Neustrelitz Hbf",
+    "stop_lat": 53.359258,
+    "stop_lon": 13.074603
+  },
+  {
+    "stop_id": 8000276,
+    "stop_name": "Neuwied",
+    "stop_lat": 50.431462,
+    "stop_lon": 7.473128
+  },
+  {
+    "stop_id": 8004343,
+    "stop_name": "Niebüll",
+    "stop_lat": 54.789603,
+    "stop_lon": 8.834572
+  },
+  {
+    "stop_id": 8000279,
+    "stop_name": "Nienburg(Weser)",
+    "stop_lat": 52.645568,
+    "stop_lon": 9.217755
+  },
+  {
+    "stop_id": 8601699,
+    "stop_name": "Noerreport st",
+    "stop_lat": 55.683518,
+    "stop_lon": 12.571864
+  },
+  {
+    "stop_id": 8700436,
+    "stop_name": "Noisy-le-Sec",
+    "stop_lat": 48.896509,
+    "stop_lon": 2.458792
+  },
+  {
+    "stop_id": 8004449,
+    "stop_name": "Norddeich",
+    "stop_lat": 53.621581,
+    "stop_lon": 7.160825
+  },
+  {
+    "stop_id": 8007768,
+    "stop_name": "Norddeich Mole",
+    "stop_lat": 53.624314,
+    "stop_lon": 7.158802
+  },
+  {
+    "stop_id": 8000800,
+    "stop_name": "Norden",
+    "stop_lat": 53.588195,
+    "stop_lon": 7.218913
+  },
+  {
+    "stop_id": 8000283,
+    "stop_name": "Northeim(Han)",
+    "stop_lat": 51.703139,
+    "stop_lon": 9.98662
+  },
+  {
+    "stop_id": 5600025,
+    "stop_name": "Nove Zamky",
+    "stop_lat": 47.994999,
+    "stop_lon": 18.173959
+  },
+  {
+    "stop_id": 8601739,
+    "stop_name": "Nyborg st",
+    "stop_lat": 55.31407,
+    "stop_lon": 10.802921
+  },
+  {
+    "stop_id": 8601745,
+    "stop_name": "Nykoebing F st",
+    "stop_lat": 54.766834,
+    "stop_lon": 11.877771
+  },
+  {
+    "stop_id": 8000284,
+    "stop_name": "Nürnberg Hbf",
+    "stop_lat": 49.445615,
+    "stop_lon": 11.082989
+  },
+  {
+    "stop_id": 8004488,
+    "stop_name": "Nürtingen",
+    "stop_lat": 48.628001,
+    "stop_lon": 9.342651
+  },
+  {
+    "stop_id": 8004506,
+    "stop_name": "Oberau",
+    "stop_lat": 47.559274,
+    "stop_lon": 11.139271
+  },
+  {
+    "stop_id": 8000286,
+    "stop_name": "Oberhausen Hbf",
+    "stop_lat": 51.474876,
+    "stop_lon": 6.851587
+  },
+  {
+    "stop_id": 8004563,
+    "stop_name": "Oberndorf(Neckar)",
+    "stop_lat": 48.29567,
+    "stop_lon": 8.575511
+  },
+  {
+    "stop_id": 8004585,
+    "stop_name": "Oberstdorf",
+    "stop_lat": 47.411033,
+    "stop_lon": 10.278095
+  },
+  {
+    "stop_id": 8601770,
+    "stop_name": "Odense st",
+    "stop_lat": 55.401778,
+    "stop_lon": 10.386002
+  },
+  {
+    "stop_id": 8601878,
+    "stop_name": "Oesterport st",
+    "stop_lat": 55.692705,
+    "stop_lon": 12.587613
+  },
+  {
+    "stop_id": 8270830,
+    "stop_name": "Oetrange",
+    "stop_lat": 49.602603,
+    "stop_lon": 6.258137
+  },
+  {
+    "stop_id": 8000290,
+    "stop_name": "Offenburg",
+    "stop_lat": 48.476479,
+    "stop_lon": 7.946725
+  },
+  {
+    "stop_id": 8004669,
+    "stop_name": "Oldenburg(Holst)",
+    "stop_lat": 54.283825,
+    "stop_lon": 10.882836
+  },
+  {
+    "stop_id": 8000291,
+    "stop_name": "Oldenburg(Oldb)",
+    "stop_lat": 53.144326,
+    "stop_lon": 8.222712
+  },
+  {
+    "stop_id": 8500218,
+    "stop_name": "Olten",
+    "stop_lat": 47.351929,
+    "stop_lon": 7.907685
+  },
+  {
+    "stop_id": 7800002,
+    "stop_name": "Opatija Matulji",
+    "stop_lat": 45.364701,
+    "stop_lon": 14.320976
+  },
+  {
+    "stop_id": 5100046,
+    "stop_name": "Opole Glowne",
+    "stop_lat": 50.661514,
+    "stop_lon": 17.925866
+  },
+  {
+    "stop_id": 2100012,
+    "stop_name": "Orscha Central",
+    "stop_lat": 54.520835,
+    "stop_lon": 30.374883
+  },
+  {
+    "stop_id": 8300257,
+    "stop_name": "Orvieto",
+    "stop_lat": 42.723931,
+    "stop_lon": 12.126754
+  },
+  {
+    "stop_id": 2000158,
+    "stop_name": "Osinovka(Gr)",
+    "stop_lat": 54.707074,
+    "stop_lon": 31.002034
+  },
+  {
+    "stop_id": 8000294,
+    "stop_name": "Osnabrück Hbf",
+    "stop_lat": 52.272849,
+    "stop_lon": 8.061778
+  },
+  {
+    "stop_id": 5400026,
+    "stop_name": "Ostrava hl.n.",
+    "stop_lat": 49.852089,
+    "stop_lon": 18.267258
+  },
+  {
+    "stop_id": 8011191,
+    "stop_name": "Ostseebad Binz",
+    "stop_lat": 54.40482,
+    "stop_lon": 13.600508
+  },
+  {
+    "stop_id": 8601899,
+    "stop_name": "Padborg st",
+    "stop_lat": 54.824248,
+    "stop_lon": 9.358804
+  },
+  {
+    "stop_id": 8000297,
+    "stop_name": "Paderborn Hbf",
+    "stop_lat": 51.712982,
+    "stop_lon": 8.740508
+  },
+  {
+    "stop_id": 8300098,
+    "stop_name": "Padova",
+    "stop_lat": 45.417828,
+    "stop_lon": 11.88062
+  },
+  {
+    "stop_id": 8004751,
+    "stop_name": "Papenburg(Ems)",
+    "stop_lat": 53.089707,
+    "stop_lon": 7.386706
+  },
+  {
+    "stop_id": 8700011,
+    "stop_name": "Paris Est",
+    "stop_lat": 48.876976,
+    "stop_lon": 2.35912
+  },
+  {
+    "stop_id": 8010268,
+    "stop_name": "Pasewalk",
+    "stop_lat": 53.515356,
+    "stop_lon": 13.988878
+  },
+  {
+    "stop_id": 8000298,
+    "stop_name": "Passau Hbf",
+    "stop_lat": 48.573635,
+    "stop_lon": 13.450775
+  },
+  {
+    "stop_id": 8004760,
+    "stop_name": "Peine",
+    "stop_lat": 52.318945,
+    "stop_lon": 10.232142
+  },
+  {
+    "stop_id": 8300124,
+    "stop_name": "Peschiera del Garda",
+    "stop_lat": 45.437577,
+    "stop_lon": 10.701182
+  },
+  {
+    "stop_id": 8000299,
+    "stop_name": "Pforzheim Hbf",
+    "stop_lat": 48.894154,
+    "stop_lon": 8.703095
+  },
+  {
+    "stop_id": 8004815,
+    "stop_name": "Piding",
+    "stop_lat": 47.759545,
+    "stop_lon": 12.91153
+  },
+  {
+    "stop_id": 7900011,
+    "stop_name": "Pivka",
+    "stop_lat": 45.675252,
+    "stop_lon": 14.191378
+  },
+  {
+    "stop_id": 8000301,
+    "stop_name": "Plattling",
+    "stop_lat": 48.779622,
+    "stop_lon": 12.863941
+  },
+  {
+    "stop_id": 8000302,
+    "stop_name": "Plochingen",
+    "stop_lat": 48.713084,
+    "stop_lon": 9.410807
+  },
+  {
+    "stop_id": 5400012,
+    "stop_name": "Plzen hl.n.",
+    "stop_lat": 49.743167,
+    "stop_lon": 13.388246
+  },
+  {
+    "stop_id": 8300110,
+    "stop_name": "Pordenone",
+    "stop_lat": 45.956353,
+    "stop_lon": 12.653684
+  },
+  {
+    "stop_id": 7900012,
+    "stop_name": "Postojna",
+    "stop_lat": 45.773099,
+    "stop_lon": 14.221465
+  },
+  {
+    "stop_id": 8012666,
+    "stop_name": "Potsdam Hbf",
+    "stop_lat": 52.391569,
+    "stop_lon": 13.066738
+  },
+  {
+    "stop_id": 5100081,
+    "stop_name": "Poznan Gl.",
+    "stop_lat": 52.401997,
+    "stop_lon": 16.910867
+  },
+  {
+    "stop_id": 5400014,
+    "stop_name": "Praha hl.n.",
+    "stop_lat": 50.083058,
+    "stop_lon": 14.436038
+  },
+  {
+    "stop_id": 5400201,
+    "stop_name": "Praha-Holesovice",
+    "stop_lat": 50.110215,
+    "stop_lon": 14.440011
+  },
+  {
+    "stop_id": 5400204,
+    "stop_name": "Praha-Smichov",
+    "stop_lat": 50.060945,
+    "stop_lon": 14.408153
+  },
+  {
+    "stop_id": 8010282,
+    "stop_name": "Prenzlau",
+    "stop_lat": 53.321611,
+    "stop_lon": 13.866535
+  },
+  {
+    "stop_id": 8004885,
+    "stop_name": "Prien a Chiemsee",
+    "stop_lat": 47.855513,
+    "stop_lon": 12.346612
+  },
+  {
+    "stop_id": 8012683,
+    "stop_name": "Prora",
+    "stop_lat": 54.444984,
+    "stop_lon": 13.564057
+  },
+  {
+    "stop_id": 5100234,
+    "stop_name": "Przemysl Gl.",
+    "stop_lat": 49.783664,
+    "stop_lon": 22.776364
+  },
+  {
+    "stop_id": 5102825,
+    "stop_name": "Przemysl Zasanie",
+    "stop_lat": 49.793633,
+    "stop_lon": 22.774117
+  },
+  {
+    "stop_id": 5100195,
+    "stop_name": "Przeworsk",
+    "stop_lat": 50.067219,
+    "stop_lon": 22.503353
+  },
+  {
+    "stop_id": 8004903,
+    "stop_name": "Puttgarden",
+    "stop_lat": 54.500367,
+    "stop_lon": 11.226718
+  },
+  {
+    "stop_id": 8000079,
+    "stop_name": "Puttgarden(MS)",
+    "stop_lat": 54.502048,
+    "stop_lon": 11.227905
+  },
+  {
+    "stop_id": 8100080,
+    "stop_name": "Pörtschach am Wörther See",
+    "stop_lat": 46.636199,
+    "stop_lon": 14.146235
+  },
+  {
+    "stop_id": 5100263,
+    "stop_name": "Raciborz",
+    "stop_lat": 50.090349,
+    "stop_lon": 18.226393
+  },
+  {
+    "stop_id": 8000880,
+    "stop_name": "Radolfzell",
+    "stop_lat": 47.735876,
+    "stop_lon": 8.968987
+  },
+  {
+    "stop_id": 8100138,
+    "stop_name": "Radstadt",
+    "stop_lat": 47.384236,
+    "stop_lon": 13.46781
+  },
+  {
+    "stop_id": 8000306,
+    "stop_name": "Rastatt",
+    "stop_lat": 48.86048,
+    "stop_lon": 8.215619
+  },
+  {
+    "stop_id": 8004965,
+    "stop_name": "Ravensburg",
+    "stop_lat": 47.784481,
+    "stop_lon": 9.606098
+  },
+  {
+    "stop_id": 8000307,
+    "stop_name": "Recklinghausen Hbf",
+    "stop_lat": 51.616357,
+    "stop_lon": 7.203488
+  },
+  {
+    "stop_id": 8000309,
+    "stop_name": "Regensburg Hbf",
+    "stop_lat": 49.01167,
+    "stop_lon": 12.099615
+  },
+  {
+    "stop_id": 8000310,
+    "stop_name": "Remagen",
+    "stop_lat": 50.577213,
+    "stop_lon": 7.229781
+  },
+  {
+    "stop_id": 8000312,
+    "stop_name": "Rendsburg",
+    "stop_lat": 54.302262,
+    "stop_lon": 9.671135
+  },
+  {
+    "stop_id": 8000314,
+    "stop_name": "Reutlingen Hbf",
+    "stop_lat": 48.496076,
+    "stop_lon": 9.209116
+  },
+  {
+    "stop_id": 8000316,
+    "stop_name": "Rheine",
+    "stop_lat": 52.2763,
+    "stop_lon": 7.434259
+  },
+  {
+    "stop_id": 8000318,
+    "stop_name": "Rheydt Hbf",
+    "stop_lat": 51.163031,
+    "stop_lon": 6.439567
+  },
+  {
+    "stop_id": 8012762,
+    "stop_name": "Ribnitz-Damgarten Ost",
+    "stop_lat": 54.251015,
+    "stop_lon": 12.487015
+  },
+  {
+    "stop_id": 8012763,
+    "stop_name": "Ribnitz-Damgarten West",
+    "stop_lat": 54.239176,
+    "stop_lon": 12.436963
+  },
+  {
+    "stop_id": 8010297,
+    "stop_name": "Riesa",
+    "stop_lat": 51.309654,
+    "stop_lon": 13.287738
+  },
+  {
+    "stop_id": 7800013,
+    "stop_name": "Rijeka",
+    "stop_lat": 45.330138,
+    "stop_lon": 14.430339
+  },
+  {
+    "stop_id": 8300221,
+    "stop_name": "Rimini",
+    "stop_lat": 44.064241,
+    "stop_lon": 12.574012
+  },
+  {
+    "stop_id": 8601979,
+    "stop_name": "Ringsted st",
+    "stop_lat": 55.43804,
+    "stop_lon": 11.786153
+  },
+  {
+    "stop_id": 8601988,
+    "stop_name": "Roedby",
+    "stop_lat": 54.655718,
+    "stop_lon": 11.357466
+  },
+  {
+    "stop_id": 8601996,
+    "stop_name": "Roedekro st",
+    "stop_lat": 55.069689,
+    "stop_lon": 9.332754
+  },
+  {
+    "stop_id": 8300263,
+    "stop_name": "Roma Termini",
+    "stop_lat": 41.900492,
+    "stop_lon": 12.502791
+  },
+  {
+    "stop_id": 8270890,
+    "stop_name": "Roodt/Syre",
+    "stop_lat": 49.666804,
+    "stop_lon": 6.303074
+  },
+  {
+    "stop_id": 8000320,
+    "stop_name": "Rosenheim",
+    "stop_lat": 47.850021,
+    "stop_lon": 12.119203
+  },
+  {
+    "stop_id": 8602026,
+    "stop_name": "Roskilde st",
+    "stop_lat": 55.639012,
+    "stop_lon": 12.088855
+  },
+  {
+    "stop_id": 8010304,
+    "stop_name": "Rostock Hbf",
+    "stop_lat": 54.078242,
+    "stop_lon": 12.131078
+  },
+  {
+    "stop_id": 8000322,
+    "stop_name": "Rottweil",
+    "stop_lat": 48.1653,
+    "stop_lon": 8.639299
+  },
+  {
+    "stop_id": 8300113,
+    "stop_name": "Rovereto",
+    "stop_lat": 45.890957,
+    "stop_lon": 11.033603
+  },
+  {
+    "stop_id": 5100082,
+    "stop_name": "Rzepin",
+    "stop_lat": 52.350219,
+    "stop_lon": 14.815077
+  },
+  {
+    "stop_id": 5100229,
+    "stop_name": "Rzeszow Gl.",
+    "stop_lat": 50.04311,
+    "stop_lon": 22.006798
+  },
+  {
+    "stop_id": 8010309,
+    "stop_name": "Saalfeld(Saale)",
+    "stop_lat": 50.650314,
+    "stop_lon": 11.374986
+  },
+  {
+    "stop_id": 8100049,
+    "stop_name": "Saalfelden",
+    "stop_lat": 47.426854,
+    "stop_lon": 12.829764
+  },
+  {
+    "stop_id": 8000323,
+    "stop_name": "Saarbrücken Hbf",
+    "stop_lat": 49.241066,
+    "stop_lon": 6.991019
+  },
+  {
+    "stop_id": 8100002,
+    "stop_name": "Salzburg Hbf",
+    "stop_lat": 47.813048,
+    "stop_lon": 13.04582
+  },
+  {
+    "stop_id": 8101917,
+    "stop_name": "Salzburg Süd",
+    "stop_lat": 47.770224,
+    "stop_lon": 13.078487
+  },
+  {
+    "stop_id": 8270930,
+    "stop_name": "Sandweiler-Contern",
+    "stop_lat": 49.600742,
+    "stop_lon": 6.205685
+  },
+  {
+    "stop_id": 7800067,
+    "stop_name": "Sapjane",
+    "stop_lat": 45.47704,
+    "stop_lon": 14.244352
+  },
+  {
+    "stop_id": 7800076,
+    "stop_name": "Sapjane(Gr)",
+    "stop_lat": 45.505158,
+    "stop_lon": 14.244217
+  },
+  {
+    "stop_id": 8509411,
+    "stop_name": "Sargans",
+    "stop_lat": 47.045361,
+    "stop_lon": 9.445398
+  },
+  {
+    "stop_id": 8503424,
+    "stop_name": "Schaffhausen",
+    "stop_lat": 47.698283,
+    "stop_lon": 8.632728
+  },
+  {
+    "stop_id": 8005321,
+    "stop_name": "Scharbeutz",
+    "stop_lat": 54.018743,
+    "stop_lon": 10.745759
+  },
+  {
+    "stop_id": 8100137,
+    "stop_name": "Schladming",
+    "stop_lat": 47.393827,
+    "stop_lon": 13.678148
+  },
+  {
+    "stop_id": 8005362,
+    "stop_name": "Schleswig",
+    "stop_lat": 54.499459,
+    "stop_lon": 9.538139
+  },
+  {
+    "stop_id": 8000891,
+    "stop_name": "Schlüchtern",
+    "stop_lat": 50.341175,
+    "stop_lon": 9.510039
+  },
+  {
+    "stop_id": 8005424,
+    "stop_name": "Schorndorf",
+    "stop_lat": 48.807147,
+    "stop_lon": 9.526309
+  },
+  {
+    "stop_id": 8100044,
+    "stop_name": "Schwarzach-St.Veit",
+    "stop_lat": 47.318534,
+    "stop_lon": 13.154464
+  },
+  {
+    "stop_id": 8005476,
+    "stop_name": "Schweich(DB)",
+    "stop_lat": 49.831064,
+    "stop_lon": 6.740337
+  },
+  {
+    "stop_id": 8010324,
+    "stop_name": "Schwerin Hbf",
+    "stop_lat": 53.634741,
+    "stop_lon": 11.407455
+  },
+  {
+    "stop_id": 8000329,
+    "stop_name": "Schwäbisch Gmünd",
+    "stop_lat": 48.801008,
+    "stop_lon": 9.787797
+  },
+  {
+    "stop_id": 8100024,
+    "stop_name": "Schärding",
+    "stop_lat": 48.463724,
+    "stop_lon": 13.442514
+  },
+  {
+    "stop_id": 8089126,
+    "stop_name": "Schöna(Gr)",
+    "stop_lat": 50.860059,
+    "stop_lon": 14.22213
+  },
+  {
+    "stop_id": 8010318,
+    "stop_name": "Schönebeck(Elbe)",
+    "stop_lat": 52.018795,
+    "stop_lon": 11.733161
+  },
+  {
+    "stop_id": 8100113,
+    "stop_name": "Seefeld in Tirol",
+    "stop_lat": 47.328728,
+    "stop_lon": 11.189485
+  },
+  {
+    "stop_id": 8100150,
+    "stop_name": "Selzthal",
+    "stop_lat": 47.55024,
+    "stop_lon": 14.312841
+  },
+  {
+    "stop_id": 7900018,
+    "stop_name": "Sevnica",
+    "stop_lat": 46.009677,
+    "stop_lon": 15.301232
+  },
+  {
+    "stop_id": 8005556,
+    "stop_name": "Siegburg/Bonn",
+    "stop_lat": 50.793916,
+    "stop_lon": 7.203029
+  },
+  {
+    "stop_id": 8005561,
+    "stop_name": "Sierksdorf",
+    "stop_lat": 54.068525,
+    "stop_lon": 10.769104
+  },
+  {
+    "stop_id": 8000073,
+    "stop_name": "Singen(Hohentwiel)",
+    "stop_lat": 47.758439,
+    "stop_lon": 8.840379
+  },
+  {
+    "stop_id": 8500026,
+    "stop_name": "Sissach",
+    "stop_lat": 47.46264,
+    "stop_lon": 7.811977
+  },
+  {
+    "stop_id": 8602175,
+    "stop_name": "Skanderborg st",
+    "stop_lat": 56.043563,
+    "stop_lon": 9.924496
+  },
+  {
+    "stop_id": 8602254,
+    "stop_name": "Slagelse st",
+    "stop_lat": 55.407549,
+    "stop_lon": 11.348054
+  },
+  {
+    "stop_id": 2000004,
+    "stop_name": "Smolensk",
+    "stop_lat": 54.798341,
+    "stop_lon": 32.034463
+  },
+  {
+    "stop_id": 8000076,
+    "stop_name": "Soest",
+    "stop_lat": 51.578423,
+    "stop_lon": 8.104593
+  },
+  {
+    "stop_id": 8000087,
+    "stop_name": "Solingen Hbf",
+    "stop_lat": 51.160766,
+    "stop_lon": 7.004188
+  },
+  {
+    "stop_id": 8005609,
+    "stop_name": "Sonthofen",
+    "stop_lat": 47.51324,
+    "stop_lon": 10.272342
+  },
+  {
+    "stop_id": 5100056,
+    "stop_name": "Sopot",
+    "stop_lat": 54.440166,
+    "stop_lon": 18.56232
+  },
+  {
+    "stop_id": 8602350,
+    "stop_name": "Soroe st",
+    "stop_lat": 55.419019,
+    "stop_lon": 11.568793
+  },
+  {
+    "stop_id": 8005616,
+    "stop_name": "Spaichingen",
+    "stop_lat": 48.068989,
+    "stop_lon": 8.740149
+  },
+  {
+    "stop_id": 8507483,
+    "stop_name": "Spiez",
+    "stop_lat": 46.686394,
+    "stop_lon": 7.680096
+  },
+  {
+    "stop_id": 8100092,
+    "stop_name": "Spittal-Millstättersee",
+    "stop_lat": 46.795703,
+    "stop_lon": 13.487415
+  },
+  {
+    "stop_id": 8005644,
+    "stop_name": "St Georgen(Schwarzw)",
+    "stop_lat": 48.123814,
+    "stop_lon": 8.341954
+  },
+  {
+    "stop_id": 8100064,
+    "stop_name": "St. Anton am Arlberg",
+    "stop_lat": 47.127567,
+    "stop_lon": 10.266994
+  },
+  {
+    "stop_id": 8506302,
+    "stop_name": "St. Gallen(CH)",
+    "stop_lat": 47.423177,
+    "stop_lon": 9.369879
+  },
+  {
+    "stop_id": 8100043,
+    "stop_name": "St. Johann im Pongau",
+    "stop_lat": 47.348378,
+    "stop_lon": 13.19496
+  },
+  {
+    "stop_id": 8100054,
+    "stop_name": "St. Johann in Tirol",
+    "stop_lat": 47.519622,
+    "stop_lon": 12.430778
+  },
+  {
+    "stop_id": 8506314,
+    "stop_name": "St. Margrethen",
+    "stop_lat": 47.45321,
+    "stop_lon": 9.638252
+  },
+  {
+    "stop_id": 8100071,
+    "stop_name": "St.Michael in Obersteiermark",
+    "stop_lat": 47.346625,
+    "stop_lon": 15.00919
+  },
+  {
+    "stop_id": 8100008,
+    "stop_name": "St.Pölten Hbf",
+    "stop_lat": 48.208304,
+    "stop_lon": 15.624672
+  },
+  {
+    "stop_id": 8100309,
+    "stop_name": "Stadt Rottenmann",
+    "stop_lat": 47.527227,
+    "stop_lon": 14.367171
+  },
+  {
+    "stop_id": 8005661,
+    "stop_name": "Stadtallendorf",
+    "stop_lat": 50.825432,
+    "stop_lon": 9.015282
+  },
+  {
+    "stop_id": 8013025,
+    "stop_name": "Stadtroda",
+    "stop_lat": 50.868212,
+    "stop_lon": 11.722788
+  },
+  {
+    "stop_id": 8100132,
+    "stop_name": "Stainach-Irdning",
+    "stop_lat": 47.529196,
+    "stop_lon": 14.106754
+  },
+  {
+    "stop_id": 8000091,
+    "stop_name": "Steinach(b Rothenburg ob der Tauber)",
+    "stop_lat": 49.45322,
+    "stop_lon": 10.273538
+  },
+  {
+    "stop_id": 8010334,
+    "stop_name": "Stendal",
+    "stop_lat": 52.594725,
+    "stop_lon": 11.854408
+  },
+  {
+    "stop_id": 8010338,
+    "stop_name": "Stralsund Hbf",
+    "stop_lat": 54.308627,
+    "stop_lon": 13.077318
+  },
+  {
+    "stop_id": 8700023,
+    "stop_name": "Strasbourg",
+    "stop_lat": 48.585339,
+    "stop_lon": 7.734067
+  },
+  {
+    "stop_id": 8000095,
+    "stop_name": "Straubing",
+    "stop_lat": 48.876976,
+    "stop_lon": 12.574093
+  },
+  {
+    "stop_id": 8300068,
+    "stop_name": "Stresa",
+    "stop_lat": 45.88453,
+    "stop_lon": 8.531635
+  },
+  {
+    "stop_id": 5603745,
+    "stop_name": "Sturovo",
+    "stop_lat": 47.800122,
+    "stop_lon": 18.679917
+  },
+  {
+    "stop_id": 8000096,
+    "stop_name": "Stuttgart Hbf",
+    "stop_lat": 48.784081,
+    "stop_lon": 9.181636
+  },
+  {
+    "stop_id": 8005791,
+    "stop_name": "Sulz(Neckar)",
+    "stop_lat": 48.366487,
+    "stop_lon": 8.636746
+  },
+  {
+    "stop_id": 5103284,
+    "stop_name": "Swiebodzin",
+    "stop_lat": 52.245144,
+    "stop_lon": 15.539536
+  },
+  {
+    "stop_id": 5603743,
+    "stop_name": "Szob(Gr)",
+    "stop_lat": 47.824896,
+    "stop_lon": 18.84477
+  },
+  {
+    "stop_id": 5100230,
+    "stop_name": "Tarnow",
+    "stop_lat": 50.005401,
+    "stop_lon": 20.97418
+  },
+  {
+    "stop_id": 8303915,
+    "stop_name": "Tarvisio Boscoverde",
+    "stop_lat": 46.506358,
+    "stop_lon": 13.607214
+  },
+  {
+    "stop_id": 5500009,
+    "stop_name": "Tatabanya",
+    "stop_lat": 47.584929,
+    "stop_lon": 18.393611
+  },
+  {
+    "stop_id": 5100061,
+    "stop_name": "Tczew",
+    "stop_lat": 54.097317,
+    "stop_lon": 18.790152
+  },
+  {
+    "stop_id": 8100060,
+    "stop_name": "Telfs-Pfaffenhofen",
+    "stop_lat": 47.300708,
+    "stop_lon": 11.078872
+  },
+  {
+    "stop_id": 5100084,
+    "stop_name": "Terespol",
+    "stop_lat": 52.074142,
+    "stop_lon": 23.601224
+  },
+  {
+    "stop_id": 8700059,
+    "stop_name": "Thionville",
+    "stop_lat": 49.333259,
+    "stop_lon": 6.151759
+  },
+  {
+    "stop_id": 8507100,
+    "stop_name": "Thun",
+    "stop_lat": 46.754694,
+    "stop_lon": 7.629415
+  },
+  {
+    "stop_id": 8005874,
+    "stop_name": "Timmendorferstrand",
+    "stop_lat": 53.994211,
+    "stop_lon": 10.762272
+  },
+  {
+    "stop_id": 8602553,
+    "stop_name": "Tinglev st",
+    "stop_lat": 54.936173,
+    "stop_lon": 9.258233
+  },
+  {
+    "stop_id": 8000116,
+    "stop_name": "Traunstein",
+    "stop_lat": 47.869725,
+    "stop_lon": 12.638797
+  },
+  {
+    "stop_id": 8003179,
+    "stop_name": "Treis-Karden",
+    "stop_lat": 50.179836,
+    "stop_lon": 7.299636
+  },
+  {
+    "stop_id": 8300101,
+    "stop_name": "Trento",
+    "stop_lat": 46.072287,
+    "stop_lon": 11.118901
+  },
+  {
+    "stop_id": 8000122,
+    "stop_name": "Treuchtlingen",
+    "stop_lat": 48.961267,
+    "stop_lon": 10.908158
+  },
+  {
+    "stop_id": 8300130,
+    "stop_name": "Treviso Centrale",
+    "stop_lat": 45.6597,
+    "stop_lon": 12.245133
+  },
+  {
+    "stop_id": 8000129,
+    "stop_name": "Treysa",
+    "stop_lat": 50.910659,
+    "stop_lon": 9.185672
+  },
+  {
+    "stop_id": 8005902,
+    "stop_name": "Triberg",
+    "stop_lat": 48.140004,
+    "stop_lon": 8.236807
+  },
+  {
+    "stop_id": 8000134,
+    "stop_name": "Trier Hbf",
+    "stop_lat": 49.756849,
+    "stop_lon": 6.652449
+  },
+  {
+    "stop_id": 8005905,
+    "stop_name": "Trier Süd",
+    "stop_lat": 49.744632,
+    "stop_lon": 6.636682
+  },
+  {
+    "stop_id": 5100072,
+    "stop_name": "Trzebinia",
+    "stop_lat": 50.153938,
+    "stop_lon": 19.453214
+  },
+  {
+    "stop_id": 8000163,
+    "stop_name": "Tuttlingen",
+    "stop_lat": 47.98058,
+    "stop_lon": 8.798543
+  },
+  {
+    "stop_id": 8005927,
+    "stop_name": "Tutzing",
+    "stop_lat": 47.907138,
+    "stop_lon": 11.272887
+  },
+  {
+    "stop_id": 8000141,
+    "stop_name": "Tübingen Hbf",
+    "stop_lat": 48.515807,
+    "stop_lon": 9.05541
+  },
+  {
+    "stop_id": 8300115,
+    "stop_name": "Udine",
+    "stop_lat": 46.055783,
+    "stop_lon": 13.242162
+  },
+  {
+    "stop_id": 8000168,
+    "stop_name": "Uelzen",
+    "stop_lat": 52.969782,
+    "stop_lon": 10.553057
+  },
+  {
+    "stop_id": 8000170,
+    "stop_name": "Ulm Hbf",
+    "stop_lat": 48.399433,
+    "stop_lon": 9.982224
+  },
+  {
+    "stop_id": 8000171,
+    "stop_name": "Unna",
+    "stop_lat": 51.538978,
+    "stop_lon": 7.692861
+  },
+  {
+    "stop_id": 5400019,
+    "stop_name": "Usti nad Labem hl.n.",
+    "stop_lat": 50.659564,
+    "stop_lon": 14.044728
+  },
+  {
+    "stop_id": 8400621,
+    "stop_name": "Utrecht Centraal",
+    "stop_lat": 52.089397,
+    "stop_lon": 5.109864
+  },
+  {
+    "stop_id": 5501413,
+    "stop_name": "Vac",
+    "stop_lat": 47.782728,
+    "stop_lon": 19.133063
+  },
+  {
+    "stop_id": 8006053,
+    "stop_name": "Vaihingen(Enz)",
+    "stop_lat": 48.948116,
+    "stop_lon": 8.957634
+  },
+  {
+    "stop_id": 8602714,
+    "stop_name": "Valby(Koebenhavn)",
+    "stop_lat": 55.663795,
+    "stop_lon": 12.514324
+  },
+  {
+    "stop_id": 8602722,
+    "stop_name": "Vamdrup st",
+    "stop_lat": 55.428089,
+    "stop_lon": 9.28645
+  },
+  {
+    "stop_id": 8602756,
+    "stop_name": "Vejle st",
+    "stop_lat": 55.706359,
+    "stop_lon": 9.536872
+  },
+  {
+    "stop_id": 8100081,
+    "stop_name": "Velden am Wörther See",
+    "stop_lat": 46.620054,
+    "stop_lon": 14.044836
+  },
+  {
+    "stop_id": 8010355,
+    "stop_name": "Velgast",
+    "stop_lat": 54.277317,
+    "stop_lon": 12.803138
+  },
+  {
+    "stop_id": 8300093,
+    "stop_name": "Venezia Mestre",
+    "stop_lat": 45.481903,
+    "stop_lon": 12.231901
+  },
+  {
+    "stop_id": 8300094,
+    "stop_name": "Venezia Santa Lucia",
+    "stop_lat": 45.441397,
+    "stop_lon": 12.320462
+  },
+  {
+    "stop_id": 8003155,
+    "stop_name": "Venlo(Gr)",
+    "stop_lat": 51.340892,
+    "stop_lon": 6.192714
+  },
+  {
+    "stop_id": 8006076,
+    "stop_name": "Verden(Aller)",
+    "stop_lat": 52.920818,
+    "stop_lon": 9.237855
+  },
+  {
+    "stop_id": 8300120,
+    "stop_name": "Verona Porta Nuova",
+    "stop_lat": 45.42866,
+    "stop_lon": 10.982742
+  },
+  {
+    "stop_id": 8602825,
+    "stop_name": "Viby Sjaelland st",
+    "stop_lat": 55.54485,
+    "stop_lon": 12.027549
+  },
+  {
+    "stop_id": 8300126,
+    "stop_name": "Vicenza",
+    "stop_lat": 45.541097,
+    "stop_lon": 11.540774
+  },
+  {
+    "stop_id": 8000174,
+    "stop_name": "Viersen",
+    "stop_lat": 51.254946,
+    "stop_lon": 6.403897
+  },
+  {
+    "stop_id": 8100147,
+    "stop_name": "Villach Hbf",
+    "stop_lat": 46.618625,
+    "stop_lon": 13.848539
+  },
+  {
+    "stop_id": 8000366,
+    "stop_name": "Villingen(Schwarzw)",
+    "stop_lat": 48.058022,
+    "stop_lon": 8.465259
+  },
+  {
+    "stop_id": 8501605,
+    "stop_name": "Visp",
+    "stop_lat": 46.294024,
+    "stop_lon": 7.881454
+  },
+  {
+    "stop_id": 8602887,
+    "stop_name": "Vojens st",
+    "stop_lat": 55.248476,
+    "stop_lon": 9.304914
+  },
+  {
+    "stop_id": 8602903,
+    "stop_name": "Vordingborg st",
+    "stop_lat": 55.012518,
+    "stop_lon": 11.899417
+  },
+  {
+    "stop_id": 8000368,
+    "stop_name": "Wabern(Bz Kassel)",
+    "stop_lat": 51.103136,
+    "stop_lon": 9.35804
+  },
+  {
+    "stop_id": 8000192,
+    "stop_name": "Wanne-Eickel Hbf",
+    "stop_lat": 51.531256,
+    "stop_lon": 7.165787
+  },
+  {
+    "stop_id": 8000196,
+    "stop_name": "Warburg(Westf)",
+    "stop_lat": 51.492953,
+    "stop_lon": 9.163846
+  },
+  {
+    "stop_id": 8010361,
+    "stop_name": "Waren(Müritz)",
+    "stop_lat": 53.521513,
+    "stop_lon": 12.680678
+  },
+  {
+    "stop_id": 8013236,
+    "stop_name": "Warnemünde",
+    "stop_lat": 54.176854,
+    "stop_lon": 12.091273
+  },
+  {
+    "stop_id": 5100065,
+    "stop_name": "Warszawa Centralna",
+    "stop_lat": 52.228864,
+    "stop_lon": 21.003233
+  },
+  {
+    "stop_id": 5100066,
+    "stop_name": "Warszawa Wschodnia",
+    "stop_lat": 52.251544,
+    "stop_lon": 21.052332
+  },
+  {
+    "stop_id": 5100067,
+    "stop_name": "Warszawa Zachodnia",
+    "stop_lat": 52.219974,
+    "stop_lon": 20.965245
+  },
+  {
+    "stop_id": 8200340,
+    "stop_name": "Wasserbillig",
+    "stop_lat": 49.712829,
+    "stop_lon": 6.499354
+  },
+  {
+    "stop_id": 8271080,
+    "stop_name": "Wecker",
+    "stop_lat": 49.700091,
+    "stop_lon": 6.387366
+  },
+  {
+    "stop_id": 8000153,
+    "stop_name": "Weener(Gr)",
+    "stop_lat": 53.188076,
+    "stop_lon": 7.214068
+  },
+  {
+    "stop_id": 8006272,
+    "stop_name": "Weil am Rhein",
+    "stop_lat": 47.593972,
+    "stop_lon": 7.608416
+  },
+  {
+    "stop_id": 8000220,
+    "stop_name": "Weilheim(Oberbay)",
+    "stop_lat": 47.845365,
+    "stop_lon": 11.142858
+  },
+  {
+    "stop_id": 8010366,
+    "stop_name": "Weimar",
+    "stop_lat": 50.99149,
+    "stop_lon": 11.326462
+  },
+  {
+    "stop_id": 8000377,
+    "stop_name": "Weinheim(Bergstr)Hbf",
+    "stop_lat": 49.553306,
+    "stop_lon": 8.66535
+  },
+  {
+    "stop_id": 8010368,
+    "stop_name": "Weißenfels",
+    "stop_lat": 51.204615,
+    "stop_lon": 11.970926
+  },
+  {
+    "stop_id": 8100014,
+    "stop_name": "Wels Hbf",
+    "stop_lat": 48.166082,
+    "stop_lon": 14.02657
+  },
+  {
+    "stop_id": 8100539,
+    "stop_name": "Werfen",
+    "stop_lat": 47.4726,
+    "stop_lon": 13.195185
+  },
+  {
+    "stop_id": 8006369,
+    "stop_name": "Westerland(Sylt)",
+    "stop_lat": 54.906841,
+    "stop_lon": 8.310923
+  },
+  {
+    "stop_id": 8004610,
+    "stop_name": "Westerstede-Ocholt",
+    "stop_lat": 53.202162,
+    "stop_lon": 7.88647
+  },
+  {
+    "stop_id": 8103000,
+    "stop_name": "Wien Hbf",
+    "stop_lat": 48.184923,
+    "stop_lon": 16.375865
+  },
+  {
+    "stop_id": 8100004,
+    "stop_name": "Wien Hbf (Autoreisezuganlage)",
+    "stop_lat": 48.176626,
+    "stop_lon": 16.392873
+  },
+  {
+    "stop_id": 8100514,
+    "stop_name": "Wien Meidling",
+    "stop_lat": 48.174451,
+    "stop_lon": 16.333085
+  },
+  {
+    "stop_id": 8000250,
+    "stop_name": "Wiesbaden Hbf",
+    "stop_lat": 50.070788,
+    "stop_lon": 8.243729
+  },
+  {
+    "stop_id": 8006421,
+    "stop_name": "Wiesloch-Walldorf",
+    "stop_lat": 49.291351,
+    "stop_lon": 8.664145
+  },
+  {
+    "stop_id": 8506000,
+    "stop_name": "Winterthur",
+    "stop_lat": 47.500332,
+    "stop_lon": 8.723797
+  },
+  {
+    "stop_id": 8010382,
+    "stop_name": "Wittenberge",
+    "stop_lat": 53.003114,
+    "stop_lon": 11.762871
+  },
+  {
+    "stop_id": 8000379,
+    "stop_name": "Wittlich Hbf",
+    "stop_lat": 49.97312,
+    "stop_lon": 6.943556
+  },
+  {
+    "stop_id": 2000021,
+    "stop_name": "Wjasma",
+    "stop_lat": 55.19739,
+    "stop_lon": 34.317552
+  },
+  {
+    "stop_id": 8006552,
+    "stop_name": "Wolfsburg Hbf",
+    "stop_lat": 52.429495,
+    "stop_lon": 10.787784
+  },
+  {
+    "stop_id": 8000257,
+    "stop_name": "Worms Hbf",
+    "stop_lat": 49.634937,
+    "stop_lon": 8.356444
+  },
+  {
+    "stop_id": 5100069,
+    "stop_name": "Wroclaw Glowny",
+    "stop_lat": 51.098075,
+    "stop_lon": 17.037084
+  },
+  {
+    "stop_id": 8000266,
+    "stop_name": "Wuppertal Hbf",
+    "stop_lat": 51.254362,
+    "stop_lon": 7.149544
+  },
+  {
+    "stop_id": 8100099,
+    "stop_name": "Wörgl Hbf",
+    "stop_lat": 47.491801,
+    "stop_lon": 12.060584
+  },
+  {
+    "stop_id": 8000260,
+    "stop_name": "Würzburg Hbf",
+    "stop_lat": 49.801795,
+    "stop_lon": 9.935777
+  },
+  {
+    "stop_id": 5100070,
+    "stop_name": "Zabrze",
+    "stop_lat": 50.305281,
+    "stop_lon": 18.786943
+  },
+  {
+    "stop_id": 7800020,
+    "stop_name": "Zagreb Glavni kolodvor",
+    "stop_lat": 45.804436,
+    "stop_lon": 15.978704
+  },
+  {
+    "stop_id": 5100071,
+    "stop_name": "Zbaszynek",
+    "stop_lat": 52.24251,
+    "stop_lon": 15.818093
+  },
+  {
+    "stop_id": 8100048,
+    "stop_name": "Zell am See",
+    "stop_lat": 47.32052,
+    "stop_lon": 12.796567
+  },
+  {
+    "stop_id": 7900004,
+    "stop_name": "Zidani Most",
+    "stop_lat": 46.085582,
+    "stop_lon": 15.170322
+  },
+  {
+    "stop_id": 5100222,
+    "stop_name": "Zielona Gora Gl.",
+    "stop_lat": 51.947439,
+    "stop_lon": 15.51371
+  },
+  {
+    "stop_id": 8503016,
+    "stop_name": "Zürich Flughafen",
+    "stop_lat": 47.450379,
+    "stop_lon": 8.562387
+  },
+  {
+    "stop_id": 8503000,
+    "stop_name": "Zürich HB",
+    "stop_lat": 47.378177,
+    "stop_lon": 8.540193
+  },
+  {
+    "stop_id": 8010396,
+    "stop_name": "Züssow",
+    "stop_lat": 53.973877,
+    "stop_lon": 13.548191
+  },
+  {
+    "stop_id": 8100061,
+    "stop_name": "Ötztal",
+    "stop_lat": 47.238485,
+    "stop_lon": 10.859113
+  },
+  {
+    "stop_id": 8005940,
+    "stop_name": "Übersee",
+    "stop_lat": 47.822047,
+    "stop_lon": 12.487338
+  }
+]
