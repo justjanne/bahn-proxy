@@ -31,7 +31,8 @@ func main() {
 
 	apiClient := bahn.ApiClient{
 		IrisBaseUrl:          "http://iris.noncd.db.de/iris-tts",
-		CoachSequenceBaseUrl: "https://www.apps-bahn.de/wr/wagenreihung/1.0/",
+		CoachSequenceBaseUrl: "https://www.apps-bahn.de/wr/wagenreihung/1.0",
+		HafasBaseUrl:         "https://reiseauskunft.bahn.de/bin",
 		HttpClient: &http.Client{
 			Timeout: time.Second * 10,
 		},
