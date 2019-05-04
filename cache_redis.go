@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"git.kuschku.de/justjanne/bahn-api"
 	"github.com/go-redis/cache"
 	"github.com/go-redis/redis"
@@ -15,24 +16,32 @@ type RedisCache struct {
 
 func (m RedisCache) Set(key string, value interface{}) error {
 	return m.backend.Set(&cache.Item{
-		Key: key,
-		Object: value,
+		Key:        key,
+		Object:     value,
 		Expiration: m.expirationTime,
 	})
 }
 
 func (m RedisCache) Get(key string, value interface{}) error {
-	return m.backend.Get(key, &value)
+	err := m.backend.Get(key, &value)
+	if err != nil {
+		return err
+	} else if value == nil {
+		return errors.New("redis returned empty result")
+	}
+	return nil
 }
 
-func NewRedisCache(expirationTime time.Duration) bahn.CacheBackend {
+func NewRedisCache(address string, password string, expirationTime time.Duration) bahn.CacheBackend {
 	return RedisCache{
 		backend: &cache.Codec{
 			Redis: redis.NewClient(&redis.Options{
-
+				Addr:     address,
+				Password: password,
 			}),
 			Marshal:   json.Marshal,
 			Unmarshal: json.Unmarshal,
 		},
+		expirationTime: expirationTime,
 	}
 }

@@ -2,10 +2,13 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"git.kuschku.de/justjanne/bahn-api"
+	"gopkg.in/yaml.v2"
 	"log"
 	"net/http"
+	"os"
 	"path"
 	"sort"
 	"strconv"
@@ -28,21 +31,40 @@ func returnJson(w http.ResponseWriter, data interface{}) error {
 }
 
 func main() {
+	var err error
+
+	configPath := flag.String("config", "config.yaml", "Path to config file")
+	listen := flag.String("listen", ":8080", "Listen address")
+	flag.Parse()
+
+	var configFile *os.File
+	if configFile, err = os.Open(*configPath); err != nil {
+		panic(err)
+	}
+
+	var config Config
+	if err = yaml.NewDecoder(configFile).Decode(&config); err != nil {
+		panic(err)
+	}
+
 	autocompleteStations := loadAutocompleteStations()
 
 	apiClient := bahn.ApiClient{
-		IrisBaseUrl:          "http://iris.noncd.db.de/iris-tts",
-		CoachSequenceBaseUrl: "https://www.apps-bahn.de/wr/wagenreihung/1.0",
-		HafasBaseUrl:         "https://reiseauskunft.bahn.de/bin",
+		IrisBaseUrl:          config.Endpoints.Iris,
+		CoachSequenceBaseUrl: config.Endpoints.CoachSequence,
+		HafasBaseUrl:         config.Endpoints.Hafas,
 		HttpClient: &http.Client{
-			Timeout: time.Second * 10,
+			Timeout: config.RequestTimeout,
 		},
 		Caches: []bahn.CacheBackend{
-			NewMemoryCache(5 * time.Minute),
+			NewMemoryCache(config.Caches.Memory.Timeout),
+			NewRedisCache(
+				config.Caches.Redis.Address,
+				config.Caches.Redis.Password,
+				config.Caches.Redis.Timeout,
+			),
 		},
 	}
-
-	MaxResults := 20
 
 	http.HandleFunc("/autocomplete/", func(w http.ResponseWriter, r *http.Request) {
 		if stationName := strings.TrimSpace(r.FormValue("name")); stationName != "" {
@@ -62,14 +84,14 @@ func main() {
 					contains = append(contains, station)
 				}
 
-				if len(perfectMatch)+len(prefix)+len(contains) >= MaxResults {
+				if len(perfectMatch)+len(prefix)+len(contains) >= config.MaxResults {
 					break
 				}
 			}
 
 			result := append(append(perfectMatch, prefix...), contains...)
 			if err := returnJson(w, result); err != nil {
-				log.Fatal(err)
+				log.Println(err)
 				return
 			}
 		} else if position, err := PositionFromString(strings.TrimSpace(r.FormValue("position"))); err == nil {
@@ -87,8 +109,8 @@ func main() {
 				return result[i].Distance < result[j].Distance
 			})
 
-			if err := returnJson(w, result[:MaxResults]); err != nil {
-				log.Fatal(err)
+			if err := returnJson(w, result[:config.MaxResults]); err != nil {
+				log.Println(err)
 				return
 			}
 		}
@@ -101,18 +123,18 @@ func main() {
 
 		var evaId int64
 		if evaId, err = strconv.ParseInt(rawEvaId, 10, 64); err != nil {
-			log.Fatal(err)
+			log.Println(err)
 			return
 		}
 
 		var stations []bahn.Station
 		if stations, err = apiClient.Station(evaId); err != nil {
-			log.Fatal(err)
+			log.Println(err)
 			return
 		}
 
 		if err = returnJson(w, stations); err != nil {
-			log.Fatal(err)
+			log.Println(err)
 			return
 		}
 	})
@@ -124,7 +146,7 @@ func main() {
 
 		var evaId int64
 		if evaId, err = strconv.ParseInt(rawEvaId, 10, 64); err != nil {
-			log.Fatal(err)
+			log.Println(err)
 			return
 		}
 
@@ -137,7 +159,7 @@ func main() {
 
 		var timetable bahn.Timetable
 		if timetable, err = apiClient.Timetable(evaId, date); err != nil {
-			log.Fatal(err)
+			log.Println(err)
 			return
 		}
 		for _, stop := range timetable.Stops {
@@ -148,7 +170,7 @@ func main() {
 
 		var realtime bahn.Timetable
 		if realtime, err = apiClient.RealtimeAll(evaId, date); err != nil {
-			log.Fatal(err)
+			log.Println(err)
 			return
 		}
 		for _, stop := range realtime.Stops {
@@ -161,11 +183,13 @@ func main() {
 		for key, combined := range data {
 			if combined.Timetable.Arrival != nil && combined.Timetable.Arrival.Wings != "" {
 				if combined.WingDefinition, err = apiClient.WingDefinition(combined.Timetable.StopId, combined.Timetable.Arrival.Wings); err != nil {
-					log.Fatal(err)
+					log.Println(err)
+					return
 				}
 			} else if combined.Timetable.Departure != nil && combined.Timetable.Departure.Wings != "" {
 				if combined.WingDefinition, err = apiClient.WingDefinition(combined.Timetable.StopId, combined.Timetable.Departure.Wings); err != nil {
-					log.Fatal(err)
+					log.Println(err)
+					return
 				}
 			}
 			data[key] = combined
@@ -183,7 +207,8 @@ func main() {
 				searchQuery := fmt.Sprintf("%s %s", combined.Timetable.TripLabel.TripCategory, combined.Timetable.TripLabel.TripNumber)
 				var suggestions []bahn.Suggestion
 				if suggestions, err = apiClient.Suggestions(searchQuery, moment); err != nil {
-					log.Fatal(err)
+					log.Println(err)
+					return
 				}
 				var targetStation = timetable.Station
 				if combined.Timetable.Departure != nil {
@@ -213,7 +238,8 @@ func main() {
 		for key, combined := range data {
 			if combined.TrainLink != "" {
 				if combined.HafasMessages, err = apiClient.HafasMessages(combined.TrainLink); err != nil {
-					log.Fatal(err)
+					log.Println(err)
+					return
 				}
 			}
 			data[key] = combined
@@ -225,11 +251,11 @@ func main() {
 		}
 
 		if err = returnJson(w, result); err != nil {
-			log.Fatal(err)
+			log.Println(err)
 			return
 		}
 	})
-	if err := http.ListenAndServe(":8080", nil); err != nil {
+	if err := http.ListenAndServe(*listen, nil); err != nil {
 		log.Fatal(err)
 	}
 }
