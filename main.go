@@ -22,7 +22,7 @@ func returnJson(w http.ResponseWriter, data interface{}) error {
 		return err
 	}
 
-	w.Header().Add("Content-Type", "application/json")
+	w.Header().Add("Content-Type", "application/json; charset=utf-8")
 	if _, err := w.Write(marshalled); err != nil {
 		return err
 	}
