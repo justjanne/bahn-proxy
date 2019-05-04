@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"fmt"
 	"git.kuschku.de/justjanne/bahn-api"
+	"github.com/golang/glog"
 	"gopkg.in/yaml.v2"
 	"log"
 	"net/http"
@@ -28,6 +28,13 @@ func returnJson(w http.ResponseWriter, data interface{}) error {
 	}
 
 	return nil
+}
+
+func measure(name string, f func()) {
+	start := time.Now()
+	f()
+	end := time.Now()
+	glog.Infof("%s took %s", name, end.Sub(start).String())
 }
 
 func main() {
@@ -157,93 +164,109 @@ func main() {
 
 		var data = make(map[string]InternalModel)
 
-		var timetable bahn.Timetable
-		if timetable, err = apiClient.Timetable(evaId, date); err != nil {
-			log.Println(err)
-			return
-		}
-		for _, stop := range timetable.Stops {
-			combined := data[stop.StopId]
-			combined.Timetable = stop
-			data[stop.StopId] = combined
-		}
+		measure("total", func() {
 
-		var realtime bahn.Timetable
-		if realtime, err = apiClient.RealtimeAll(evaId, date); err != nil {
-			log.Println(err)
-			return
-		}
-		for _, stop := range realtime.Stops {
-			if combined, ok := data[stop.StopId]; ok {
-				combined.Realtime = stop
-				data[stop.StopId] = combined
-			}
-		}
-
-		for key, combined := range data {
-			if combined.Timetable.Arrival != nil && combined.Timetable.Arrival.Wings != "" {
-				if combined.WingDefinition, err = apiClient.WingDefinition(combined.Timetable.StopId, combined.Timetable.Arrival.Wings); err != nil {
+			var timetable bahn.Timetable
+			measure("timetable", func() {
+				if timetable, err = apiClient.Timetable(evaId, date); err != nil {
 					log.Println(err)
 					return
 				}
-			} else if combined.Timetable.Departure != nil && combined.Timetable.Departure.Wings != "" {
-				if combined.WingDefinition, err = apiClient.WingDefinition(combined.Timetable.StopId, combined.Timetable.Departure.Wings); err != nil {
+				for _, stop := range timetable.Stops {
+					combined := data[stop.StopId]
+					combined.Timetable = stop
+					data[stop.StopId] = combined
+				}
+			})
+
+			var realtime bahn.Timetable
+			measure("realtime", func() {
+				if realtime, err = apiClient.RealtimeAll(evaId, date); err != nil {
 					log.Println(err)
 					return
 				}
-			}
-			data[key] = combined
-		}
-
-		for key, combined := range data {
-			var moment time.Time
-			if combined.Timetable.Departure != nil && combined.Timetable.Departure.PlannedTime != nil {
-				moment = *combined.Timetable.Departure.PlannedTime
-			} else if combined.Timetable.Arrival != nil && combined.Timetable.Arrival.PlannedTime != nil {
-				moment = *combined.Timetable.Arrival.PlannedTime
-			}
-
-			if !moment.IsZero() {
-				searchQuery := fmt.Sprintf("%s %s", combined.Timetable.TripLabel.TripCategory, combined.Timetable.TripLabel.TripNumber)
-				var suggestions []bahn.Suggestion
-				if suggestions, err = apiClient.Suggestions(searchQuery, moment); err != nil {
-					log.Println(err)
-					return
-				}
-				var targetStation = timetable.Station
-				if combined.Timetable.Departure != nil {
-					if combined.Timetable.Departure.PlannedDestination != "" {
-						targetStation = combined.Timetable.Departure.PlannedDestination
-					} else if len(combined.Timetable.Departure.PlannedPath) > 0 {
-						targetStation = combined.Timetable.Departure.PlannedPath[len(combined.Timetable.Departure.PlannedPath)-1]
+				for _, stop := range realtime.Stops {
+					if combined, ok := data[stop.StopId]; ok {
+						combined.Realtime = stop
+						data[stop.StopId] = combined
 					}
 				}
-				var sourceStation = timetable.Station
-				if combined.Timetable.Arrival != nil {
-					if combined.Timetable.Arrival.PlannedDestination != "" {
-						sourceStation = combined.Timetable.Arrival.PlannedDestination
-					} else if len(combined.Timetable.Arrival.PlannedPath) > 0 {
-						sourceStation = combined.Timetable.Arrival.PlannedPath[0]
-					}
-				}
-				for _, suggestion := range suggestions {
-					if targetStation == suggestion.ArrivalStation || sourceStation == suggestion.DepartureStation {
-						combined.TrainLink = suggestion.TrainLink
-					}
-				}
-			}
-			data[key] = combined
-		}
+			})
 
-		for key, combined := range data {
-			if combined.TrainLink != "" {
-				if combined.HafasMessages, err = apiClient.HafasMessages(combined.TrainLink); err != nil {
-					log.Println(err)
-					return
+			measure("wing_definition", func() {
+				for key, combined := range data {
+					if combined.Timetable.Arrival != nil && combined.Timetable.Arrival.Wings != "" {
+						if combined.WingDefinition, err = apiClient.WingDefinition(combined.Timetable.StopId, combined.Timetable.Arrival.Wings); err != nil {
+							log.Println(err)
+							return
+						}
+					} else if combined.Timetable.Departure != nil && combined.Timetable.Departure.Wings != "" {
+						if combined.WingDefinition, err = apiClient.WingDefinition(combined.Timetable.StopId, combined.Timetable.Departure.Wings); err != nil {
+							log.Println(err)
+							return
+						}
+					}
+					data[key] = combined
 				}
-			}
-			data[key] = combined
-		}
+			})
+
+			/*
+				measure("trainlinks", func() {
+					for key, combined := range data {
+						var moment time.Time
+						if combined.Timetable.Departure != nil && combined.Timetable.Departure.PlannedTime != nil {
+							moment = *combined.Timetable.Departure.PlannedTime
+						} else if combined.Timetable.Arrival != nil && combined.Timetable.Arrival.PlannedTime != nil {
+							moment = *combined.Timetable.Arrival.PlannedTime
+						}
+
+						if !moment.IsZero() {
+							searchQuery := fmt.Sprintf("%s %s", combined.Timetable.TripLabel.TripCategory, combined.Timetable.TripLabel.TripNumber)
+							var suggestions []bahn.Suggestion
+							if suggestions, err = apiClient.Suggestions(searchQuery, moment); err != nil {
+								log.Println(err)
+								return
+							}
+							var targetStation = timetable.Station
+							if combined.Timetable.Departure != nil {
+								if combined.Timetable.Departure.PlannedDestination != "" {
+									targetStation = combined.Timetable.Departure.PlannedDestination
+								} else if len(combined.Timetable.Departure.PlannedPath) > 0 {
+									targetStation = combined.Timetable.Departure.PlannedPath[len(combined.Timetable.Departure.PlannedPath)-1]
+								}
+							}
+							var sourceStation = timetable.Station
+							if combined.Timetable.Arrival != nil {
+								if combined.Timetable.Arrival.PlannedDestination != "" {
+									sourceStation = combined.Timetable.Arrival.PlannedDestination
+								} else if len(combined.Timetable.Arrival.PlannedPath) > 0 {
+									sourceStation = combined.Timetable.Arrival.PlannedPath[0]
+								}
+							}
+							for _, suggestion := range suggestions {
+								if targetStation == suggestion.ArrivalStation || sourceStation == suggestion.DepartureStation {
+									combined.TrainLink = suggestion.TrainLink
+								}
+							}
+						}
+						data[key] = combined
+					}
+				})
+
+				measure("hafas_messages", func() {
+					for key, combined := range data {
+						if combined.TrainLink != "" {
+							if combined.HafasMessages, err = apiClient.HafasMessages(combined.TrainLink); err != nil {
+								log.Println(err)
+								return
+							}
+						}
+						data[key] = combined
+					}
+				})
+			*/
+
+		})
 
 		var result []InternalModel
 		for _, element := range data {
