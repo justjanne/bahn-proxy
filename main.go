@@ -219,7 +219,12 @@ func main() {
 			data[key] = combined
 		}
 
-		if err = returnJson(w, data); err != nil {
+		var result []InternalModel
+		for _, element := range data {
+			result = append(result, element)
+		}
+
+		if err = returnJson(w, result); err != nil {
 			log.Fatal(err)
 			return
 		}
