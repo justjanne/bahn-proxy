@@ -37,6 +37,9 @@ func main() {
 		HttpClient: &http.Client{
 			Timeout: time.Second * 10,
 		},
+		Caches: []bahn.CacheBackend{
+			NewMemoryCache(5 * time.Minute),
+		},
 	}
 
 	MaxResults := 20
