@@ -77,7 +77,7 @@ func main() {
 		Caches: caches,
 	}
 
-	http.HandleFunc("/autocomplete/", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/api/v1/autocomplete/", func(w http.ResponseWriter, r *http.Request) {
 		if query := canonicalizeName(r.FormValue("name")); query != "" {
 			var perfectMatch []AutocompleteStation
 			var prefix []AutocompleteStation
@@ -128,7 +128,7 @@ func main() {
 			}
 		}
 	})
-	http.HandleFunc("/station/", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/api/v1/station/", func(w http.ResponseWriter, r *http.Request) {
 		var err error
 
 		_, rawEvaId := path.Split(r.URL.Path)
@@ -151,7 +151,29 @@ func main() {
 			return
 		}
 	})
-	http.HandleFunc("/timetable/", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/api/v1/coach_sequence/", func(w http.ResponseWriter, r *http.Request) {
+		var err error
+
+		_, line := path.Split(r.URL.Path)
+		line = strings.TrimSpace(line)
+
+		var date time.Time
+		if date, err = time.Parse(time.RFC3339, strings.TrimSpace(r.FormValue("time"))); err != nil {
+			date = time.Now()
+		}
+
+		var coachSequence bahn.CoachSequence
+		if coachSequence, err = apiClient.CoachSequence(line, date); err != nil {
+			glog.Warning(err)
+			return
+		}
+
+		if err = returnJson(w, coachSequence); err != nil {
+			glog.Warning(err)
+			return
+		}
+	})
+	http.HandleFunc("/api/v0/timetable/", func(w http.ResponseWriter, r *http.Request) {
 		var err error
 
 		_, rawEvaId := path.Split(r.URL.Path)
@@ -283,7 +305,7 @@ func main() {
 			return
 		}
 	})
-	http.HandleFunc("/healthz", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/api/healthz", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(200)
 		_, _ = w.Write([]byte("ok\n"))
 	})
