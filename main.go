@@ -79,20 +79,22 @@ func main() {
 	}
 
 	http.HandleFunc("/autocomplete/", func(w http.ResponseWriter, r *http.Request) {
-		if stationName := strings.TrimSpace(r.FormValue("name")); stationName != "" {
+		if query := canonicalizeName(r.FormValue("name")); query != "" {
 			var perfectMatch []AutocompleteStation
 			var prefix []AutocompleteStation
 			var contains []AutocompleteStation
 
+			findableQuery := findableName(query)
+
 			for _, station := range autocompleteStations {
-				findableName := canonicalizeName(station.Name)
-				if strings.EqualFold(station.Name, stationName) {
+				if strings.EqualFold(station.CanonicalizedName, query) ||
+					strings.EqualFold(station.FindableName, query) {
 					perfectMatch = append(perfectMatch, station)
-				} else if strings.EqualFold(findableName, stationName) {
-					perfectMatch = append(perfectMatch, station)
-				} else if strings.HasPrefix(station.Name, stationName) {
+				} else if strings.HasPrefix(station.CanonicalizedName, query) ||
+					strings.HasPrefix(station.FindableName, findableQuery) {
 					prefix = append(prefix, station)
-				} else if strings.Contains(station.Name, stationName) {
+				} else if strings.Contains(station.CanonicalizedName, query) ||
+					strings.Contains(station.FindableName, findableQuery) {
 					contains = append(contains, station)
 				}
 
