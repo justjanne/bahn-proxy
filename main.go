@@ -278,6 +278,10 @@ func main() {
 			return
 		}
 	})
+	http.HandleFunc("/healthz", func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(200)
+		_, _ = w.Write([]byte("ok\n"))
+	})
 	if err := http.ListenAndServe(*listen, nil); err != nil {
 		log.Fatal(err)
 	}
