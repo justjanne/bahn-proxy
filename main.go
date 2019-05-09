@@ -56,6 +56,18 @@ func main() {
 
 	autocompleteStations := loadAutocompleteStations()
 
+	var caches []bahn.CacheBackend
+	if config.Caches.Memory != nil {
+		caches = append(caches, NewMemoryCache(config.Caches.Memory.Timeout))
+	}
+	if config.Caches.Redis != nil {
+		caches = append(caches, NewRedisCache(
+			config.Caches.Redis.Address,
+			config.Caches.Redis.Password,
+			config.Caches.Redis.Timeout,
+		))
+	}
+
 	apiClient := bahn.ApiClient{
 		IrisBaseUrl:          config.Endpoints.Iris,
 		CoachSequenceBaseUrl: config.Endpoints.CoachSequence,
@@ -63,14 +75,7 @@ func main() {
 		HttpClient: &http.Client{
 			Timeout: config.RequestTimeout,
 		},
-		Caches: []bahn.CacheBackend{
-			NewMemoryCache(config.Caches.Memory.Timeout),
-			NewRedisCache(
-				config.Caches.Redis.Address,
-				config.Caches.Redis.Password,
-				config.Caches.Redis.Timeout,
-			),
-		},
+		Caches: caches,
 	}
 
 	http.HandleFunc("/autocomplete/", func(w http.ResponseWriter, r *http.Request) {

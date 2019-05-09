@@ -16,8 +16,8 @@ type EndpointConfig struct {
 }
 
 type CacheConfig struct {
-	Redis  RedisCacheConfig  `yaml:"redis"`
-	Memory MemoryCacheConfig `yaml:"memory"`
+	Redis  *RedisCacheConfig  `yaml:"redis"`
+	Memory *MemoryCacheConfig `yaml:"memory"`
 }
 
 type RedisCacheConfig struct {
