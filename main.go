@@ -168,7 +168,7 @@ func main() {
 			return
 		}
 
-		if err = returnJson(w, coachSequence); err != nil {
+		if err = returnJson(w, coachSequence.Data.ActualFormation); err != nil {
 			glog.Warning(err)
 			return
 		}
