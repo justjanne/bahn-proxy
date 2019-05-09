@@ -6,7 +6,6 @@ import (
 	"git.kuschku.de/justjanne/bahn-api"
 	"github.com/golang/glog"
 	"gopkg.in/yaml.v2"
-	"log"
 	"net/http"
 	"os"
 	"path"
@@ -105,7 +104,7 @@ func main() {
 
 			result := append(append(perfectMatch, prefix...), contains...)
 			if err := returnJson(w, result); err != nil {
-				log.Println(err)
+				glog.Warning(err)
 				return
 			}
 		} else if position, err := PositionFromString(strings.TrimSpace(r.FormValue("position"))); err == nil {
@@ -124,7 +123,7 @@ func main() {
 			})
 
 			if err := returnJson(w, result[:config.MaxResults]); err != nil {
-				log.Println(err)
+				glog.Warning(err)
 				return
 			}
 		}
@@ -137,18 +136,18 @@ func main() {
 
 		var evaId int64
 		if evaId, err = strconv.ParseInt(rawEvaId, 10, 64); err != nil {
-			log.Println(err)
+			glog.Warning(err)
 			return
 		}
 
 		var stations []bahn.Station
 		if stations, err = apiClient.Station(evaId); err != nil {
-			log.Println(err)
+			glog.Warning(err)
 			return
 		}
 
 		if err = returnJson(w, stations); err != nil {
-			log.Println(err)
+			glog.Warning(err)
 			return
 		}
 	})
@@ -160,7 +159,7 @@ func main() {
 
 		var evaId int64
 		if evaId, err = strconv.ParseInt(rawEvaId, 10, 64); err != nil {
-			log.Println(err)
+			glog.Warning(err)
 			return
 		}
 
@@ -176,7 +175,7 @@ func main() {
 			var timetable bahn.Timetable
 			measure("timetable", func() {
 				if timetable, err = apiClient.Timetable(evaId, date); err != nil {
-					log.Println(err)
+					glog.Warning(err)
 					return
 				}
 				for _, stop := range timetable.Stops {
@@ -189,7 +188,7 @@ func main() {
 			var realtime bahn.Timetable
 			measure("realtime", func() {
 				if realtime, err = apiClient.RealtimeAll(evaId, date); err != nil {
-					log.Println(err)
+					glog.Warning(err)
 					return
 				}
 				for _, stop := range realtime.Stops {
@@ -204,12 +203,12 @@ func main() {
 				for key, combined := range data {
 					if combined.Timetable.Arrival != nil && combined.Timetable.Arrival.Wings != "" {
 						if combined.WingDefinition, err = apiClient.WingDefinition(combined.Timetable.StopId, combined.Timetable.Arrival.Wings); err != nil {
-							log.Println(err)
+							glog.Warning(err)
 							return
 						}
 					} else if combined.Timetable.Departure != nil && combined.Timetable.Departure.Wings != "" {
 						if combined.WingDefinition, err = apiClient.WingDefinition(combined.Timetable.StopId, combined.Timetable.Departure.Wings); err != nil {
-							log.Println(err)
+							glog.Warning(err)
 							return
 						}
 					}
@@ -231,7 +230,7 @@ func main() {
 							searchQuery := fmt.Sprintf("%s %s", combined.Timetable.TripLabel.TripCategory, combined.Timetable.TripLabel.TripNumber)
 							var suggestions []bahn.Suggestion
 							if suggestions, err = apiClient.Suggestions(searchQuery, moment); err != nil {
-								log.Println(err)
+								glog.Warning(err)
 								return
 							}
 							var targetStation = timetable.Station
@@ -264,7 +263,7 @@ func main() {
 					for key, combined := range data {
 						if combined.TrainLink != "" {
 							if combined.HafasMessages, err = apiClient.HafasMessages(combined.TrainLink); err != nil {
-								log.Println(err)
+								glog.Warning(err)
 								return
 							}
 						}
@@ -272,7 +271,6 @@ func main() {
 					}
 				})
 			*/
-
 		})
 
 		var result []InternalModel
@@ -281,7 +279,7 @@ func main() {
 		}
 
 		if err = returnJson(w, result); err != nil {
-			log.Println(err)
+			glog.Warning(err)
 			return
 		}
 	})
@@ -290,6 +288,6 @@ func main() {
 		_, _ = w.Write([]byte("ok\n"))
 	})
 	if err := http.ListenAndServe(*listen, nil); err != nil {
-		log.Fatal(err)
+		glog.Error(err)
 	}
 }
