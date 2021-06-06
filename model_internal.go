@@ -1,6 +1,6 @@
 package main
 
-import "git.kuschku.de/justjanne/bahn-api"
+import "git.kuschku.de/justJanne/bahn-api"
 
 type InternalModel struct {
 	Timetable      bahn.TimetableStop  `json:"timetable,omitempty"`

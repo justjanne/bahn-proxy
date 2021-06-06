@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"git.kuschku.de/justjanne/bahn-api"
+	"git.kuschku.de/justJanne/bahn-api"
 	"time"
 )
 import "github.com/patrickmn/go-cache"

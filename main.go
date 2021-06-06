@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"git.kuschku.de/justjanne/bahn-api"
+	"git.kuschku.de/justJanne/bahn-api"
 	"github.com/golang/glog"
 	"gopkg.in/yaml.v2"
 	"net/http"

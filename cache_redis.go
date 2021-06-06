@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"errors"
-	"git.kuschku.de/justjanne/bahn-api"
+	"git.kuschku.de/justJanne/bahn-api"
 	"github.com/go-redis/cache"
 	"github.com/go-redis/redis"
 	"time"
